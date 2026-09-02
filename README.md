@@ -78,8 +78,12 @@ Concept → Intuition → Visual Explanation → Example → Code → Run
 Streamlit-for-Data-Science/
 │
 ├── docs/                    📚 Course blueprint, syllabus, cheatsheets
-├── readings/                📖 Conceptual readings (one per module)
-├── notebooks/               📓 Jupyter notebooks (primary learning, 16 total)
+├── readings/                📖 Conceptual readings
+│   ├── 01_streamlit_introduction.md   # What is Streamlit, comparisons
+│   └── 02_first_streamlit_app.md      # Installation, first app, execution model
+├── notebooks/               📓 Jupyter notebooks (primary learning)
+│   ├── 01_Streamlit_Introduction.ipynb # Concepts, comparisons, intuition
+│   └── 02_First_Streamlit_App.ipynb    # Installation, text elements, rerun model
 ├── exercises/               ✏️ Module exercises (one per module)
 ├── quizzes/                 📝 Weekly quizzes
 ├── assignments/             📋 Graded assignments (4 per semester)
@@ -87,6 +91,9 @@ Streamlit-for-Data-Science/
 ├── projects/                🚀 Project templates (P01–P08 Capstone)
 ├── instructor/              👩‍🏫 Answer keys, grading guides, slides
 ├── apps/                    🖥️ Runnable Streamlit demo apps
+│   ├── hello.py                        # Environment verification
+│   ├── 01_introduction_demo.py         # Text elements, rerun model, data display
+│   └── 02_first_app_demo.py            # Complete first app with session state
 ├── data/                    📊 Shared datasets
 ├── tests/                   🧪 Test examples using st.testing.AppTest
 │
@@ -179,11 +186,11 @@ streamlit run apps/hello.py --server.headless true
 
 ## 🗺️ Course Modules
 
-| Week | Module | Topic | Level |
-|---|---|---|---|
-| 1 | [M01](notebooks/) | Streamlit Fundamentals | Beginner |
-| 1–2 | [M02](notebooks/) | Widgets & User Input | Beginner |
-| 2–3 | [M03](notebooks/) | Layouts, Containers & Pages | Beginner |
+| Week | Module | Topic | Level | Materials |
+|---|---|---|---|---|
+| 1 | M01 | Streamlit Fundamentals | Beginner | [📖 Reading](readings/01_streamlit_introduction.md) · [📓 Notebook 01](notebooks/01_Streamlit_Introduction.ipynb) · [📓 Notebook 02](notebooks/02_First_Streamlit_App.ipynb) · [🖥️ Demo](apps/01_introduction_demo.py) |
+| 1–2 | M02 | Widgets & User Input | Beginner | [📖 Reading](readings/02_first_streamlit_app.md) · [🖥️ Demo](apps/02_first_app_demo.py) |
+| 2–3 | M03 | Layouts, Containers & Pages | Beginner | — |
 | 4 | [M04](notebooks/) | Data Visualization | Intermediate |
 | 5 | [M05](notebooks/) | Session State & App Memory | Intermediate |
 | 5–6 | [M06](notebooks/) | Forms, Inputs & File Handling | Intermediate |
