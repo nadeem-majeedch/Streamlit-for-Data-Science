@@ -1,0 +1,25 @@
+# =============================================================================
+# Streamlit for Data Science — Dev / Test Dependencies
+# =============================================================================
+# Install:  pip install -r requirements-dev.txt
+# =============================================================================
+
+# --- Testing ---
+pytest>=7.0.0
+nbval>=0.9.0
+nbmake>=1.5.0
+
+# --- Linting & Formatting ---
+ruff>=0.8.0
+mypy>=1.10.0
+
+# --- Pre-commit Hooks ---
+pre-commit>=3.0.0
+
+# --- Security Scanning ---
+pip-audit>=2.7.0
+bandit>=1.7.0
+
+# --- Notebook Tools ---
+jupyter>=1.0.0
+ipykernel>=6.0.0

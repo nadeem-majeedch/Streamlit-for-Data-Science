@@ -1,0 +1,26 @@
+# =============================================================================
+# Streamlit for Data Science — Core Dependencies
+# =============================================================================
+# Used by: all notebooks, exercises, apps, and projects.
+# Install:  pip install -r requirements.txt
+# =============================================================================
+
+# --- Core Framework ---
+streamlit>=1.44.0,<2.0.0
+
+# --- Data & Numerics ---
+numpy>=1.24.0
+pandas>=2.0.0
+
+# --- Visualization ---
+matplotlib>=3.7.0
+plotly>=5.15.0
+
+# --- Machine Learning (used from Module 12 onward) ---
+scikit-learn>=1.3.0
+
+# --- HTTP (used from Module 11 onward) ---
+requests>=2.31.0
+
+# --- Database (used from Module 10 onward) ---
+sqlalchemy>=2.0.0
