@@ -14,18 +14,18 @@ This repository contains everything needed to teach or self-study a **16-week un
 
 ### Course Roadmap
 
-```
-BEGINNER (Weeks 1–3)       Intermediate (Weeks 4–6)      Advanced (Weeks 7–9)
-├── M01 Fundamentals         ├── M04 Visualization          ├── M07 Caching & Performance
-├── M02 Widgets              ├── M05 Session State          ├── M08 Multipage Apps
-└── M03 Layouts              └── M06 Forms & Files          └── M09 Architecture
+The course is organized into **6 progression levels** across **16 modules**:
 
-DATA LAYER (Weeks 10–11)    ML & AI (Weeks 12–13)         PRODUCTION (Weeks 14–16)
-├── M10 Databases            ├── M12 ML Dashboards          ├── M14 Testing & Security
-└── M11 APIs                 └── M13 AI/LLM & RAG           ├── M15 Deployment
-                                                           └── M16 Maintenance
-                                                           + P08 Capstone Project
-```
+| Level | Modules | Weeks | Bloom's Focus |
+|---|---|---|---|
+| **[Beginner](docs/curriculum.md#level-1--beginner)** | M01 Fundamentals · M02 Widgets · M03 Layouts | 1–3 | Remember, Understand |
+| **[Intermediate](docs/curriculum.md#level-2--intermediate)** | M04 Visualization · M05 Session State · M06 Forms & Files | 4–6 | Understand, Apply |
+| **[Advanced](docs/curriculum.md#level-3--advanced)** | M07 Caching · M08 Multipage · M09 Architecture | 7–9 | Apply, Analyze |
+| **[Machine Learning](docs/curriculum.md#level-4--machine-learning)** | M10 Databases · M11 APIs · M12 ML Deployment | 10–12 | Analyze, Evaluate |
+| **[AI / NLP / LLM](docs/curriculum.md#level-5--ainlp--llm)** | M13 Chat, RAG & LLM Apps | 13 | Analyze, Create |
+| **[Deployment & Production](docs/curriculum.md#level-6--deployment--production)** | M14 Testing & Security · M15 Cloud Deploy · M16 Maintenance | 14–16 | Evaluate, Create |
+
+> 📋 **[Full Curriculum](docs/curriculum.md)** · **[Visual Roadmap](docs/roadmap.md)** · **[Learning Outcomes](docs/learning_outcomes.md)**
 
 ---
 
