@@ -1,0 +1,24 @@
+# =============================================================================
+# Streamlit for Data Science — Default Configuration
+# =============================================================================
+# This file ships with the repository so students see a consistent UI.
+# Local overrides go in ~/.streamlit/config.toml (user-level) or are
+# set via environment variables.  NEVER put secrets in this file.
+# =============================================================================
+
+[theme]
+base = "light"
+primaryColor = "#FF4B4B"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F0F2F6"
+textColor = "#31333F"
+font = "sans serif"
+
+[server]
+headless = true
+port = 8501
+enableCORS = false
+enableXsrfProtection = true
+
+[browser]
+gatherUsageStats = false
