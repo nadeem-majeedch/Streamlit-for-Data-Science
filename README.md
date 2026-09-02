@@ -80,10 +80,14 @@ Streamlit-for-Data-Science/
 ├── docs/                    📚 Course blueprint, syllabus, cheatsheets
 ├── readings/                📖 Conceptual readings
 │   ├── 01_streamlit_introduction.md   # What is Streamlit, comparisons
-│   └── 02_first_streamlit_app.md      # Installation, first app, execution model
+│   ├── 02_first_streamlit_app.md      # Installation, first app, execution model
+│   ├── 03_streamlit_widgets_and_input.md  # All widget types, forms, validation
+│   └── 04_widget_keys_and_behavior.md # Keys, identity, session_state, callbacks
 ├── notebooks/               📓 Jupyter notebooks (primary learning)
 │   ├── 01_Streamlit_Introduction.ipynb # Concepts, comparisons, intuition
-│   └── 02_First_Streamlit_App.ipynb    # Installation, text elements, rerun model
+│   ├── 02_First_Streamlit_App.ipynb    # Installation, text elements, rerun model
+│   ├── 03_streamlit_widgets.ipynb      # Every widget type, keys, forms
+│   └── 04_interactive_ds_controls.ipynb # Dataset filters, ML params, validation
 ├── exercises/               ✏️ Module exercises (one per module)
 ├── quizzes/                 📝 Weekly quizzes
 ├── assignments/             📋 Graded assignments (4 per semester)
@@ -189,7 +193,7 @@ streamlit run apps/hello.py --server.headless true
 | Week | Module | Topic | Level | Materials |
 |---|---|---|---|---|
 | 1 | M01 | Streamlit Fundamentals | Beginner | [📖 Reading](readings/01_streamlit_introduction.md) · [📓 Notebook 01](notebooks/01_Streamlit_Introduction.ipynb) · [📓 Notebook 02](notebooks/02_First_Streamlit_App.ipynb) · [🖥️ Demo](apps/01_introduction_demo.py) |
-| 1–2 | M02 | Widgets & User Input | Beginner | [📖 Reading](readings/02_first_streamlit_app.md) · [🖥️ Demo](apps/02_first_app_demo.py) |
+| 1–2 | M02 | Widgets & User Input | Beginner | [📖 Reading 03](readings/03_streamlit_widgets_and_input.md) · [📖 Reading 04](readings/04_widget_keys_and_behavior.md) · [📓 Notebook 03](notebooks/03_streamlit_widgets.ipynb) · [📓 Notebook 04](notebooks/04_interactive_ds_controls.ipynb) · [🖥️ Demo](apps/03_widgets_demo.py) · [🖥️ Demo](apps/04_forms_demo.py) |
 | 2–3 | M03 | Layouts, Containers & Pages | Beginner | — |
 | 4 | [M04](notebooks/) | Data Visualization | Intermediate |
 | 5 | [M05](notebooks/) | Session State & App Memory | Intermediate |
