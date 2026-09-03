@@ -92,7 +92,8 @@ Streamlit-for-Data-Science/
 │   ├── 11_session_state_and_execution.md  # Reruns, session state, multi-step workflows
 │   ├── 12_caching_and_performance.md     # @st.cache_data, @st.cache_resource, TTL, invalidation
 │   ├── 13_application_architecture.md   # Architecture, modules, multipage, testing
-│   └── 14_databases_and_persistence.md  # SQLite, SQL, CRUD, secrets, SQL injection
+│   ├── 14_databases_and_persistence.md  # SQLite, SQL, CRUD, secrets, SQL injection
+│   └── 15_machine_learning_streamlit.md # ML deployment, preprocessing, classification, regression
 ├── notebooks/               📓 Jupyter notebooks (primary learning)
 │   ├── 01_Streamlit_Introduction.ipynb # Concepts, comparisons, intuition
 │   ├── 02_First_Streamlit_App.ipynb    # Installation, text elements, rerun model
@@ -107,7 +108,8 @@ Streamlit-for-Data-Science/
 │   ├── 11_session_state_execution_model.ipynb # Reruns, session state, multi-step workflows
 │   ├── 12_caching_performance.ipynb           # Cache basics, cache_data vs cache_resource, TTL
 │   ├── 13_application_architecture.ipynb     # Architecture evolution, multipage, components
-│   └── 14_databases_persistence.ipynb        # SQLite, SQL basics, CRUD, connection caching
+│   ├── 14_databases_persistence.ipynb        # SQLite, SQL basics, CRUD, connection caching
+│   └── 15_ml_streamlit.ipynb                # Model persistence, preprocessing, classification, regression
 ├── exercises/               ✏️ Module exercises (one per module)
 │   ├── 03_widget_mastery.py
 │   ├── 04_dataset_filter_app.py
@@ -120,7 +122,8 @@ Streamlit-for-Data-Science/
 │   ├── 11_state_management_workshop.py
 │   ├── 12_caching_workshop.py
 │   ├── 13_architecture_workshop.py
-│   └── 14_database_workshop.py
+│   ├── 14_database_workshop.py
+│   └── 15_ml_workshop.py
 ├── quizzes/                 📝 Weekly quizzes
 │   ├── 02_widgets_input.md
 │   ├── 03_layouts_uiux.md
@@ -129,10 +132,12 @@ Streamlit-for-Data-Science/
 │   ├── 07_session_state.md
 │   ├── 08_caching_performance.md
 │   ├── 09_architecture_multipage.md
-│   └── 10_databases_persistence.md
+│   ├── 10_databases_persistence.md
+│   └── 11_machine_learning.md
 ├── assignments/             📋 Graded assignments (4 per semester)
 ├── assessments/             🎯 Pre-course, midterm, final exam materials
 ├── projects/                🚀 Project templates (P01–P08 Capstone)
+│   └── P06_ml_model_playground.md   # ML Model Playground project spec
 ├── instructor/              👩‍🏫 Answer keys, grading guides, slides
 ├── apps/                    🖥️ Runnable Streamlit demo apps
 │   ├── hello.py                        # Environment verification
@@ -148,7 +153,9 @@ Streamlit-for-Data-Science/
 │   ├── 11_session_state_demo.py       # Session State & Execution Model Demo
 │   ├── 12_caching_performance_demo.py # Caching & Performance Demo
 │   ├── 13_modular_app/               # Modular multipage app example
-│   └── 14_database_dashboard.py      # SQLite Database Dashboard
+│   ├── 14_database_dashboard.py      # SQLite Database Dashboard
+│   ├── 15_classification_app.py      # Iris Classification App
+│   └── 15_regression_app.py          # California Housing Regression App
 ├── data/                    📊 Shared datasets
 ├── tests/                   🧪 Test examples using st.testing.AppTest
 │
@@ -254,8 +261,8 @@ streamlit run apps/hello.py --server.headless true
 | 8 | M08 | Multipage Apps & Navigation | Advanced | [📖 Reading 13](readings/13_application_architecture.md) · [📓 Notebook 13](notebooks/13_application_architecture.ipynb) · [✏️ Exercise 13](exercises/13_architecture_workshop.py) · [🖥️ Demo](apps/13_modular_app/app.py) · [📝 Quiz 09](quizzes/09_architecture_multipage.md) |
 | 8–9 | [M09](notebooks/) | Architecture & Design Patterns | Advanced |
 | 10 | M10 | Databases & Persistent Storage | Advanced | [📖 Reading 14](readings/14_databases_and_persistence.md) · [📓 Notebook 14](notebooks/14_databases_persistence.ipynb) · [✏️ Exercise 14](exercises/14_database_workshop.py) · [🖥️ Demo](apps/14_database_dashboard.py) · [📝 Quiz 10](quizzes/10_databases_persistence.md) |
-| 11 | [M11](notebooks/) | APIs, Connectors & External Data | Advanced |
-| 12 | [M12](notebooks/) | ML Model Deployment | ML |
+| 11 | M11 | APIs, Connectors & External Data | Advanced |
+| 12 | M12 | ML Model Deployment | ML | [📖 Reading 15](readings/15_machine_learning_streamlit.md) · [📓 Notebook 15](notebooks/15_ml_streamlit.ipynb) · [✏️ Exercise 15](exercises/15_ml_workshop.py) · [🖥️ Classification](apps/15_classification_app.py) · [🖥️ Regression](apps/15_regression_app.py) · [📝 Quiz 11](quizzes/11_machine_learning.md) · [🚀 Project P06](projects/P06_ml_model_playground.md) |
 | 13 | [M13](notebooks/) | NLP, AI & LLM Applications | AI/LLM |
 | 14 | [M14](notebooks/) | Testing, Security & CI/CD | Advanced |
 | 15 | [M15](notebooks/) | Streamlit Community Cloud & Deployment | Deployment |
