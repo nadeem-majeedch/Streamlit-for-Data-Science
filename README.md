@@ -172,7 +172,13 @@ Streamlit-for-Data-Science/
 │   ├── A02_data_explorer.md              # Intermediate: Data explorer with upload (M04–M06, 4%)
 │   ├── A03_multipage_application.md      # Advanced: Multipage app with DB (M07–M10, 4%)
 │   └── A04_ml_production_app.md          # Production: ML app + deploy (M11–M16, 8%)
-├── assessments/             🎯 Pre-course, midterm, final exam materials
+├── assessments/             🎯 Course assessments and examinations
+│   ├── midcourse_assessment.md       # Midterm: M01-M08, 2 hours, 100 marks
+│   ├── lab_assessments.md            # 3 labs: Week 3, 8, 13 (50 min each)
+│   ├── practical_exam.md             # Timed coding exam: Week 12, 3 hours, 100 marks
+│   ├── final_practical_assessment.md # Final practical: Week 15, 4 hours, 150 marks
+│   ├── final_project_assessment.md   # Capstone rubric: 3 weeks, 200 marks
+│   └── rubrics/                      # Instructor grading guides and reference materials
 ├── projects/                🚀 Project templates (P01–P08 Capstone)
 │   ├── P06_ml_model_playground.md   # ML Model Playground project spec
 │   ├── P07_rag_document_chat.md     # RAG Document Chat project spec
@@ -407,16 +413,30 @@ Found a bug or broken exercise? [Open an issue](../../issues) with:
 
 ## 📋 Course Assessment
 
-| Component | Weight | Count |
-|---|---|---|
-| Weekly Quizzes | 10% | 12 |
-| Exercises | 20% | 16 |
-| Labs (in-class) | 10% | Weekly |
-| Assignments | 15% | 4 |
-| Midterm | 10% | 1 |
-| Projects (P01–P07) | 15% | 7 |
-| Capstone (P08) | 15% | 1 |
+| Component | Weight | Count | Assessment Type |
+|---|---|---|---|
+| Weekly Quizzes | 10% | 16 | MCQ, short answer, code questions |
+| Exercises | 20% | 20 | Coding, debugging, design challenges |
+| Lab Assessments | 10% | 3 | In-class supervised practicals |
+| Assignments | 15% | 4 | Take-home project submissions |
+| Mid-Course Assessment | 10% | 1 | 2-hour exam (conceptual + coding) |
+| Practical Exam | 10% | 1 | 3-hour timed coding exam |
+| Final Practical | 15% | 1 | 4-hour comprehensive practical |
+| Capstone Project | 15% | 1 | 3-week project + presentation |
+| **Total** | **105%** | | (5% buffer for participation) |
 
+### Bloom's Taxonomy Distribution
+
+| Level | Label | Percentage |
+|-------|-------|------------|
+| L1 | Remember | 10% |
+| L2 | Understand | 15% |
+| L3 | Apply | 35% |
+| L4 | Analyze | 20% |
+| L5 | Evaluate | 15% |
+| L6 | Create | 5% |
+
+See [docs/learning_outcomes.md](docs/learning_outcomes.md) for full CLO-to-assessment mapping.
 See [docs/course_blueprint.md](docs/course_blueprint.md) §8 for full rubrics.
 
 ---
