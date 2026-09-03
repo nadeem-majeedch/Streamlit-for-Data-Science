@@ -84,6 +84,9 @@ Streamlit-for-Data-Science/
 │   ├── learning_outcomes.md           # Learning outcomes & CLO mapping
 │   ├── learning_outcome_matrix.md     # TAUGHT→PRACTICED→ASSESSED→APPLIED chains
 │   ├── student_experience_audit.md    # Student journey analysis & friction points
+│   ├── instructor_experience_audit.md # Instructor resource completeness & quality
+│   ├── final_qa_report.md             # Release gate audit — all 16 QA categories
+│   ├── release_checklist.md           # Pre-release verification steps
 │   ├── roadmap.md                     # Visual course progression
 │   ├── deployment_checklist.md       # Pre-deployment checklist & verification
 │   ├── deployment_troubleshooting.md # Common deployment issues and solutions

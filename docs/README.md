@@ -15,6 +15,9 @@
 | [Learning Outcomes](learning_outcomes.md) | CLO definitions and assessment mapping | Instructors |
 | [Learning Outcome Matrix](learning_outcome_matrix.md) | TAUGHT→PRACTICED→ASSESSED→APPLIED chains | Instructors |
 | [Student Experience Audit](student_experience_audit.md) | Student journey analysis and friction points | Instructors, TAs |
+| [Instructor Experience Audit](instructor_experience_audit.md) | Instructor resource completeness and quality | Instructors, TAs |
+| [Final QA Report](final_qa_report.md) | Release gate audit — all 16 QA categories | Release managers |
+| [Release Checklist](release_checklist.md) | Pre-release verification steps | Release managers |
 | [Security Guide](security.md) | Security best practices | All |
 | [Deployment Checklist](deployment_checklist.md) | Pre-deployment verification | Students |
 | [Deployment Troubleshooting](deployment_troubleshooting.md) | Common deployment issues | Students, Instructors |
