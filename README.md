@@ -84,14 +84,18 @@ Streamlit-for-Data-Science/
 │   ├── 03_streamlit_widgets_and_input.md  # All widget types, forms, validation
 │   ├── 04_widget_keys_and_behavior.md # Keys, identity, session_state, callbacks
 │   ├── 05_layouts_and_containers.md  # Sidebar, columns, tabs, expanders, containers
-│   └── 06_dashboard_design_ui_ux.md  # Status, metrics, accessibility, DS dashboard design
+│   ├── 06_dashboard_design_ui_ux.md  # Status, metrics, accessibility, DS dashboard design
+│   ├── 07_data_display_dataframes.md # st.dataframe, column_config, Styler, filtering
+│   └── 08_visualization_matplotlib_plotly.md # Native charts, Matplotlib, Plotly, chart selection
 ├── notebooks/               📓 Jupyter notebooks (primary learning)
 │   ├── 01_Streamlit_Introduction.ipynb # Concepts, comparisons, intuition
 │   ├── 02_First_Streamlit_App.ipynb    # Installation, text elements, rerun model
 │   ├── 03_streamlit_widgets.ipynb      # Every widget type, keys, forms
 │   ├── 04_interactive_ds_controls.ipynb # Dataset filters, ML params, validation
 │   ├── 05_layouts_and_containers.ipynb  # Sidebar, columns, tabs, containers, popover, dialog
-│   └── 06_data_science_dashboards.ipynb # KPIs, status feedback, accessibility, dashboard design
+│   ├── 06_data_science_dashboards.ipynb # KPIs, status feedback, accessibility, dashboard design
+│   ├── 07_dataframes_tables_pandas.ipynb # DataFrame display, column_config, filtering, Styler
+│   └── 08_interactive_visualization.ipynb # Native charts, Matplotlib, Plotly, chart selection
 ├── exercises/               ✏️ Module exercises (one per module)
 ├── quizzes/                 📝 Weekly quizzes
 ├── assignments/             📋 Graded assignments (4 per semester)
@@ -105,7 +109,8 @@ Streamlit-for-Data-Science/
 │   ├── 03_widgets_demo.py              # Widgets showcase, session_state demo
 │   ├── 04_forms_demo.py                # Forms, validation patterns
 │   ├── 05_layouts_demo.py              # Layout elements showcase
-│   └── 06_dashboard_demo.py            # Complete Sales Analytics Dashboard
+│   ├── 06_dashboard_demo.py            # Complete Sales Analytics Dashboard
+│   └── 07_data_display_demo.py         # Data Display & Visualization Dashboard
 ├── data/                    📊 Shared datasets
 ├── tests/                   🧪 Test examples using st.testing.AppTest
 │
@@ -203,7 +208,7 @@ streamlit run apps/hello.py --server.headless true
 | 1 | M01 | Streamlit Fundamentals | Beginner | [📖 Reading](readings/01_streamlit_introduction.md) · [📓 Notebook 01](notebooks/01_Streamlit_Introduction.ipynb) · [📓 Notebook 02](notebooks/02_First_Streamlit_App.ipynb) · [🖥️ Demo](apps/01_introduction_demo.py) |
 | 1–2 | M02 | Widgets & User Input | Beginner | [📖 Reading 03](readings/03_streamlit_widgets_and_input.md) · [📖 Reading 04](readings/04_widget_keys_and_behavior.md) · [📓 Notebook 03](notebooks/03_streamlit_widgets.ipynb) · [📓 Notebook 04](notebooks/04_interactive_ds_controls.ipynb) · [🖥️ Demo](apps/03_widgets_demo.py) · [🖥️ Demo](apps/04_forms_demo.py) |
 | 2–3 | M03 | Layouts, Containers & Pages | Beginner | [📖 Reading 05](readings/05_layouts_and_containers.md) · [📖 Reading 06](readings/06_dashboard_design_ui_ux.md) · [📓 Notebook 05](notebooks/05_layouts_and_containers.ipynb) · [📓 Notebook 06](notebooks/06_data_science_dashboards.ipynb) · [🖥️ Demo](apps/05_layouts_demo.py) · [🖥️ Demo](apps/06_dashboard_demo.py) |
-| 4 | [M04](notebooks/) | Data Visualization | Intermediate |
+| 4 | M04 | Data Visualization | Intermediate | [📖 Reading 07](readings/07_data_display_dataframes.md) · [📖 Reading 08](readings/08_visualization_matplotlib_plotly.md) · [📓 Notebook 07](notebooks/07_dataframes_tables_pandas.ipynb) · [📓 Notebook 08](notebooks/08_interactive_visualization.ipynb) · [🖥️ Demo](apps/07_data_display_demo.py) |
 | 5 | [M05](notebooks/) | Session State & App Memory | Intermediate |
 | 5–6 | [M06](notebooks/) | Forms, Inputs & File Handling | Intermediate |
 | 7 | [M07](notebooks/) | Caching, Fragments & Performance | Advanced |
