@@ -146,19 +146,27 @@ Streamlit-for-Data-Science/
 │   ├── 16_production_ready.py             # M16: Error handling, logging, health checks, debugging
 │   ├── deployment_exercises.py            # Deployment preparation, debugging, security exercises
 │   └── security_exercises.md              # Security exercises (secrets, validation, SQL, file, LLM)
-├── quizzes/                 📝 Weekly quizzes
-│   ├── 02_widgets_input.md
-│   ├── 03_layouts_uiux.md
-│   ├── 04_dataframes_visualization.md
-│   ├── 06_file_upload.md
-│   ├── 07_session_state.md
-│   ├── 08_caching_performance.md
-│   ├── 09_architecture_multipage.md
-│   ├── 10_databases_persistence.md
-│   ├── 11_machine_learning.md
-│   ├── 13_nlp_ai.md
-│   ├── 14_llm_rag.md
-│   └── 15_deployment.md                   # Deployment, Community Cloud, secrets, troubleshooting
+├── quizzes/                 📝 Weekly quizzes + assessments
+│   ├── pre_course_assessment.md           # Placement test (Python, Pandas, ML basics, Git)
+│   ├── 01_fundamentals.md                # M01: Streamlit basics, text elements, reruns
+│   ├── 02_widgets_input.md               # M02: Widgets, forms, input handling
+│   ├── 03_layouts_uiux.md                # M03: Sidebar, columns, tabs, layout design
+│   ├── 04_dataframes_visualization.md    # M04: Data display, charts, Plotly, Matplotlib
+│   ├── 05_session_state.md               # M05: Reruns, session state, callbacks, state patterns
+│   ├── 06_file_upload.md                 # M06: File upload, validation, processing, download
+│   ├── 07_session_state.md               # M07 (alt): Session state deep dive
+│   ├── 08_caching_performance.md         # M07: cache_data, cache_resource, TTL, invalidation
+│   ├── 09_architecture_multipage.md      # M08: Architecture, modules, multipage navigation
+│   ├── 10_databases_persistence.md       # M10: SQLite, SQL, CRUD, parameterized queries
+│   ├── 11_machine_learning.md            # M12: Model deployment, preprocessing, batch prediction
+│   ├── 12_ml_deployment.md               # M12 (alt): ML deployment deep dive
+│   ├── 13_nlp_ai.md                      # M13: NLP, text classification, sentiment analysis
+│   ├── 14_llm_rag.md                     # M14: LLM providers, RAG, chat, security
+│   ├── 15_deployment.md                  # M15: Deployment, Community Cloud, secrets, troubleshooting
+│   ├── 16_production_maintenance.md      # M16: Production, monitoring, error handling, logging
+│   ├── question_bank.md                  # 📚 Bloom's-tagged question bank for exam construction
+│   ├── final_comprehensive_quiz.md       # 📝 Final exam covering all modules (100 pts)
+│   └── post_course_assessment.md         # 📊 Post-course self-assessment (mirrors pre-course)
 ├── assignments/             📋 Graded assignments (4 per semester)
 │   ├── A01_personal_dashboard.md         # Beginner: Personal dashboard (M01–M03, 4%)
 │   ├── A02_data_explorer.md              # Intermediate: Data explorer with upload (M04–M06, 4%)
