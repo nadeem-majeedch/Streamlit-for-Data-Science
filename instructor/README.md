@@ -17,6 +17,7 @@ This directory contains materials **not shared with students**. Keep solution fi
 |----------|-------------|-------------|
 | [**Course Plan**](course_plan.md) | Semester-long plan, weekly schedule, time allocation | Start of semester, course planning |
 | [**Teaching Roadmap**](teaching_roadmap.md) | Module progression, prerequisites, dependencies | Planning module order and pacing |
+| [**Lecture/Lab Sequence**](lecture_lab_sequence.md) | Complete 20-session sequence with CLO mapping and resource links | Course planning, before each session |
 | [**Session Plans**](2_hour_lecture_plan.md) | Detailed 90–120 min session plans for every module | Before each lecture |
 | [**Lab Activities**](lab_activities.md) | Hands-on lab guides with timing and solutions | Lab sessions |
 | [**Discussion Questions**](discussion_questions.md) | Prompts for class discussions by topic | Seminars, review sessions |
@@ -87,7 +88,8 @@ instructor/
 ├── README.md                          ← You are here
 ├── course_plan.md                     ← Semester schedule
 ├── teaching_roadmap.md                ← Module progression
-├── 2_hour_lecture_plan.md             ← Session-by-session plans
+├── lecture_lab_sequence.md            ← Complete 20-session sequence (PRIMARY REFERENCE)
+├── 2_hour_lecture_plan.md             ← Session-by-session lecture plans
 ├── lab_activities.md                  ← Lab session guides
 ├── discussion_questions.md            ← Discussion prompts
 ├── assessment_strategy.md             ← Grading and rubrics

@@ -193,7 +193,8 @@
 ## Related Materials
 
 - [Teaching Roadmap](teaching_roadmap.md) — Module progression and prerequisites
-- [Session Plans](2_hour_lecture_plan.md) — Detailed per-session plans
+- [Lecture/Lab Sequence](lecture_lab_sequence.md) — Complete 20-session sequence with CLO mapping
+- [Session Plans](2_hour_lecture_plan.md) — Detailed per-session lecture plans
 - [Assessment Strategy](assessment_strategy.md) — Grading policies
 - [Curriculum](../docs/curriculum.md) — Full curriculum design
 - [Course Blueprint](../docs/course_blueprint.md) — Original course blueprint
