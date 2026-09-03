@@ -88,7 +88,8 @@ Streamlit-for-Data-Science/
 │   ├── 07_data_display_dataframes.md # st.dataframe, column_config, Styler, filtering
 │   ├── 08_visualization_matplotlib_plotly.md # Native charts, Matplotlib, Plotly, chart selection
 │   ├── 09_file_upload_and_processing.md    # st.file_uploader, validation, cleaning, download
-│   └── 10_interactive_dashboard.md         # Dashboard architecture, filters, KPIs, layout
+│   ├── 10_interactive_dashboard.md         # Dashboard architecture, filters, KPIs, layout
+│   └── 11_session_state_and_execution.md  # Reruns, session state, multi-step workflows
 ├── notebooks/               📓 Jupyter notebooks (primary learning)
 │   ├── 01_Streamlit_Introduction.ipynb # Concepts, comparisons, intuition
 │   ├── 02_First_Streamlit_App.ipynb    # Installation, text elements, rerun model
@@ -102,7 +103,21 @@ Streamlit-for-Data-Science/
 │   ├── 10_interactive_dashboard.ipynb      # Dashboard architecture, filters, KPIs, layout
 │   └── 11_session_state_execution_model.ipynb # Reruns, session state, multi-step workflows
 ├── exercises/               ✏️ Module exercises (one per module)
+│   ├── 03_widget_mastery.py
+│   ├── 04_dataset_filter_app.py
+│   ├── 05_layout_basics.py
+│   ├── 06_dashboard_builder.py
+│   ├── 07_data_display_challenges.py
+│   ├── 08_visualization_workshop.py
+│   ├── 09_file_upload_workshop.py
+│   ├── 10_dashboard_workshop.py
+│   └── 11_state_management_workshop.py
 ├── quizzes/                 📝 Weekly quizzes
+│   ├── 02_widgets_input.md
+│   ├── 03_layouts_uiux.md
+│   ├── 04_dataframes_visualization.md
+│   ├── 06_file_upload.md
+│   └── 07_session_state.md
 ├── assignments/             📋 Graded assignments (4 per semester)
 ├── assessments/             🎯 Pre-course, midterm, final exam materials
 ├── projects/                🚀 Project templates (P01–P08 Capstone)
