@@ -14,6 +14,7 @@
 | [Roadmap](roadmap.md) | Visual course progression map | Students |
 | [Learning Outcomes](learning_outcomes.md) | CLO definitions and assessment mapping | Instructors |
 | [Learning Outcome Matrix](learning_outcome_matrix.md) | TAUGHT→PRACTICED→ASSESSED→APPLIED chains | Instructors |
+| [Student Experience Audit](student_experience_audit.md) | Student journey analysis and friction points | Instructors, TAs |
 | [Security Guide](security.md) | Security best practices | All |
 | [Deployment Checklist](deployment_checklist.md) | Pre-deployment verification | Students |
 | [Deployment Troubleshooting](deployment_troubleshooting.md) | Common deployment issues | Students, Instructors |

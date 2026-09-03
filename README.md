@@ -83,6 +83,7 @@ Streamlit-for-Data-Science/
 │   ├── curriculum_map.md              # Module→resource mapping table
 │   ├── learning_outcomes.md           # Learning outcomes & CLO mapping
 │   ├── learning_outcome_matrix.md     # TAUGHT→PRACTICED→ASSESSED→APPLIED chains
+│   ├── student_experience_audit.md    # Student journey analysis & friction points
 │   ├── roadmap.md                     # Visual course progression
 │   ├── deployment_checklist.md       # Pre-deployment checklist & verification
 │   ├── deployment_troubleshooting.md # Common deployment issues and solutions

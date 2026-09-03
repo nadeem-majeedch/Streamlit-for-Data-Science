@@ -53,5 +53,5 @@ else:
 
 st.divider()
 st.caption(
-    "Next step → Open `notebooks/01_first_streamlit_app.ipynb` to start Module 01."
+    "Next step → Open `notebooks/01_Streamlit_Introduction.ipynb` to start Module 01."
 )
