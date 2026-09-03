@@ -247,6 +247,44 @@
 
 ---
 
+## Solutions & Reference Implementations
+
+Complete solutions are available in `instructor/solutions/`:
+
+| Exercise | Solution | Format |
+|----------|----------|--------|
+| 01 Hello Streamlit | [01_solution.py](solutions/exercises_solutions/01_hello_streamlit_solution.py) | Runnable app |
+| 03 Widget Mastery | [03_solution.py](solutions/exercises_solutions/03_widget_mastery_solution.py) | Runnable app |
+| 04 Dataset Filter | [04_solution.py](solutions/exercises_solutions/04_dataset_filter_solution.py) | Runnable app |
+| 05 Layout Basics | [05_solution.py](solutions/exercises_solutions/05_layout_basics_solution.py) | Runnable app |
+| 06 Dashboard Builder | [06_solution.py](solutions/exercises_solutions/06_dashboard_builder_solution.py) | Runnable app |
+| 07 Data Display | [07_notes.md](solutions/exercise_notes/07_data_display_notes.md) | Solution notes |
+| 08 Visualization | [08_notes.md](solutions/exercise_notes/08_visualization_notes.md) | Solution notes |
+| 09 File Upload | [09_notes.md](solutions/exercise_notes/09_file_upload_notes.md) | Solution notes |
+| 09 API Connectors | [09_solution.py](solutions/exercises_solutions/09_api_connectors_solution.py) | Runnable app |
+| 10 Dashboard | [10_notes.md](solutions/exercise_notes/10_dashboard_workshop_notes.md) | Solution notes |
+| 11 State Mgmt | [11_notes.md](solutions/exercise_notes/11_state_management_notes.md) | Solution notes |
+| 12 Caching | [12_notes.md](solutions/exercise_notes/12_caching_notes.md) | Solution notes |
+| 13 Architecture | [13_notes.md](solutions/exercise_notes/13_architecture_notes.md) | Solution notes |
+| 14 Database | [14_notes.md](solutions/exercise_notes/14_database_notes.md) | Solution notes |
+| 15 ML Workshop | [15_notes.md](solutions/exercise_notes/15_ml_notes.md) | Solution notes |
+| 16 Production | [16_solution.py](solutions/exercises_solutions/16_production_ready_solution.py) | Runnable app |
+| 17 NLP Workshop | [17_notes.md](solutions/exercise_notes/17_nlp_notes.md) | Solution notes |
+| 18 LLM Workshop | [18_notes.md](solutions/exercise_notes/18_llm_notes.md) | Solution notes |
+
+**Assignment Solutions:**
+
+| Assignment | Solution |
+|------------|----------|
+| A01 Personal Dashboard | [A01_notes.md](solutions/assignment_solutions/A01_solution_notes.md) |
+| A02 Data Explorer | [A02_notes.md](solutions/assignment_solutions/A02_solution_notes.md) |
+| A03 Multipage App | [A03_notes.md](solutions/assignment_solutions/A03_solution_notes.md) |
+| A04 ML Production | [A04_notes.md](solutions/assignment_solutions/A04_solution_notes.md) |
+
+> ⚠️ **Do not share solution files with students.** Keep them in the instructor/ directory only.
+
+---
+
 ## Related Materials
 
 - 📋 Full Curriculum: [docs/curriculum.md](../docs/curriculum.md)
