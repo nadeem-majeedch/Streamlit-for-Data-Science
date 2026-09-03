@@ -86,7 +86,8 @@ Streamlit-for-Data-Science/
 │   ├── 05_layouts_and_containers.md  # Sidebar, columns, tabs, expanders, containers
 │   ├── 06_dashboard_design_ui_ux.md  # Status, metrics, accessibility, DS dashboard design
 │   ├── 07_data_display_dataframes.md # st.dataframe, column_config, Styler, filtering
-│   └── 08_visualization_matplotlib_plotly.md # Native charts, Matplotlib, Plotly, chart selection
+│   ├── 08_visualization_matplotlib_plotly.md # Native charts, Matplotlib, Plotly, chart selection
+│   └── 09_file_upload_and_processing.md    # st.file_uploader, validation, cleaning, download
 ├── notebooks/               📓 Jupyter notebooks (primary learning)
 │   ├── 01_Streamlit_Introduction.ipynb # Concepts, comparisons, intuition
 │   ├── 02_First_Streamlit_App.ipynb    # Installation, text elements, rerun model
@@ -95,7 +96,8 @@ Streamlit-for-Data-Science/
 │   ├── 05_layouts_and_containers.ipynb  # Sidebar, columns, tabs, containers, popover, dialog
 │   ├── 06_data_science_dashboards.ipynb # KPIs, status feedback, accessibility, dashboard design
 │   ├── 07_dataframes_tables_pandas.ipynb # DataFrame display, column_config, filtering, Styler
-│   └── 08_interactive_visualization.ipynb # Native charts, Matplotlib, Plotly, chart selection
+│   ├── 08_interactive_visualization.ipynb # Native charts, Matplotlib, Plotly, chart selection
+│   └── 09_file_upload_and_processing.ipynb # Upload, validate, clean, analyze, download pipeline
 ├── exercises/               ✏️ Module exercises (one per module)
 ├── quizzes/                 📝 Weekly quizzes
 ├── assignments/             📋 Graded assignments (4 per semester)
@@ -110,7 +112,8 @@ Streamlit-for-Data-Science/
 │   ├── 04_forms_demo.py                # Forms, validation patterns
 │   ├── 05_layouts_demo.py              # Layout elements showcase
 │   ├── 06_dashboard_demo.py            # Complete Sales Analytics Dashboard
-│   └── 07_data_display_demo.py         # Data Display & Visualization Dashboard
+│   ├── 07_data_display_demo.py         # Data Display & Visualization Dashboard
+│   └── 09_file_upload_demo.py          # File Upload & Processing Dashboard
 ├── data/                    📊 Shared datasets
 ├── tests/                   🧪 Test examples using st.testing.AppTest
 │
@@ -166,6 +169,7 @@ pip install -r requirements.txt
 pip install -r requirements-optional.txt    # all extras
 # OR install per-module:
 pip install altair seaborn                  # Module 04 only
+pip install openpyxl                       # Module 06 (Excel upload)
 pip install shap                           # Module 12 only
 pip install openai langchain chromadb      # Module 13 only
 ```
@@ -210,7 +214,7 @@ streamlit run apps/hello.py --server.headless true
 | 2–3 | M03 | Layouts, Containers & Pages | Beginner | [📖 Reading 05](readings/05_layouts_and_containers.md) · [📖 Reading 06](readings/06_dashboard_design_ui_ux.md) · [📓 Notebook 05](notebooks/05_layouts_and_containers.ipynb) · [📓 Notebook 06](notebooks/06_data_science_dashboards.ipynb) · [🖥️ Demo](apps/05_layouts_demo.py) · [🖥️ Demo](apps/06_dashboard_demo.py) |
 | 4 | M04 | Data Visualization | Intermediate | [📖 Reading 07](readings/07_data_display_dataframes.md) · [📖 Reading 08](readings/08_visualization_matplotlib_plotly.md) · [📓 Notebook 07](notebooks/07_dataframes_tables_pandas.ipynb) · [📓 Notebook 08](notebooks/08_interactive_visualization.ipynb) · [🖥️ Demo](apps/07_data_display_demo.py) |
 | 5 | [M05](notebooks/) | Session State & App Memory | Intermediate |
-| 5–6 | [M06](notebooks/) | Forms, Inputs & File Handling | Intermediate |
+| 5–6 | M06 | Forms, Inputs & File Handling | Intermediate | [📖 Reading 09](readings/09_file_upload_and_processing.md) · [📓 Notebook 09](notebooks/09_file_upload_and_processing.ipynb) · [✏️ Exercise 09](exercises/09_file_upload_workshop.py) · [🖥️ Demo](apps/09_file_upload_demo.py) |
 | 7 | [M07](notebooks/) | Caching, Fragments & Performance | Advanced |
 | 8 | [M08](notebooks/) | Multipage Apps & Navigation | Advanced |
 | 8–9 | [M09](notebooks/) | Architecture & Design Patterns | Advanced |
