@@ -195,4 +195,4 @@ Streamlit is not a silver bullet. Avoid it when:
 - 📖 Reading: [02 — First Streamlit App](02_first_streamlit_app.md)
 - 📓 Notebook: [02 — First Streamlit App](../notebooks/02_First_Streamlit_App.ipynb)
 - 🖥️ Demo App: [01 — Introduction Demo](../apps/01_introduction_demo.py)
-- ✏️ Exercise: [01 — Streamlit Introduction](../exercises/01_streamlit_introduction.py)
+- ✏️ Exercise: [01 — Hello Streamlit](../exercises/01_hello_streamlit.py)

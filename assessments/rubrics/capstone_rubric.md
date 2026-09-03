@@ -41,7 +41,7 @@ The capstone assesses all 12 Course Learning Outcomes (see [learning_outcomes.md
 
 | Deliverable | Due | Format |
 |---|---|---|
-| Problem statement & design doc | Week 14 | Markdown (see [proposal template](../../projects/p08_capstone/proposal_template.md)) |
+| Problem statement & design doc | Week 14 | Markdown (see [final capstone spec](../../projects/final_capstone.md)) |
 | Working application | Week 16 | Streamlit app in GitHub repo |
 | Test suite | Week 16 | `tests/` directory with AppTest files |
 | CI/CD pipeline | Week 16 | `.github/workflows/` configuration |

@@ -397,5 +397,5 @@ st.set_page_config(page_title="My App")  # ERROR!
 - 📖 Reading: [01 — What Is Streamlit?](01_streamlit_introduction.md)
 - 🖥️ Demo App: [01 — Introduction Demo](../apps/01_introduction_demo.py)
 - 🖥️ Demo App: [02 — First App Demo](../apps/02_first_app_demo.py)
-- ✏️ Exercise: [02 — First App Exercise](../exercises/02_first_app_exercise.py)
-- 📝 Quiz: [01 — Streamlit Basics](../quizzes/01_streamlit_basics.md)
+- ✏️ Exercise: [01 — Hello Streamlit](../exercises/01_hello_streamlit.py)
+- 📝 Quiz: [01 — Fundamentals](../quizzes/01_fundamentals.md)

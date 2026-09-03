@@ -134,7 +134,6 @@ instructor/
 - [Course Blueprint](../docs/course_blueprint.md)
 - [Curriculum](../docs/curriculum.md)
 - [Learning Outcomes](../docs/learning_outcomes.md)
-- [Syllabus](../docs/syllabus.md) *(if created)*
 - [Deployment Checklist](../docs/deployment_checklist.md)
 - [Security Guide](../docs/security.md)
 

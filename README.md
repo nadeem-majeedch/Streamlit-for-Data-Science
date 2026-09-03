@@ -251,11 +251,11 @@ Each content file cross-links to related materials:
 
 ```markdown
 ## Related Materials
-- 📓 Notebook: [Session State Deep Dive](../notebooks/05_session_state.ipynb)
-- ✏️ Exercise: [State Counter Challenge](../exercises/exercise_05_state_counter.py)
-- 📖 Reading: [Session State Internals](../readings/r06_session_state_internals.md)
-- 🚀 Project: [Real-Time Dashboard](../projects/p04_realtime_dashboard/)
-- 🖥️ Demo App: [Run it](../apps/state_demo.py)
+- 📓 Notebook: [Session State Deep Dive](../notebooks/11_session_state_execution_model.ipynb)
+- ✏️ Exercise: [State Management Workshop](../exercises/11_state_management_workshop.py)
+- 📖 Reading: [Session State & Execution](../readings/11_session_state_and_execution.md)
+- 🚀 Project: [Data Explorer](../projects/P02_data_explorer.md)
+- 🖥️ Demo App: [Run it](../apps/11_session_state_demo.py)
 ```
 
 ---

@@ -32,10 +32,10 @@
 |---|---|
 | **Week** | 1 |
 | **Bloom's Level** | Remember, Understand |
-| **Reading** | [R01 — What is Streamlit?](../readings/r01_what_is_streamlit.md) · [R02 — Streamlit vs Alternatives](../readings/r02_streamlit_vs_dash_vs_flask.md) |
-| **Notebook** | [N01 — Your First Streamlit App](../notebooks/01_first_streamlit_app.ipynb) |
-| **Exercise** | [E01 — Hello Streamlit](../exercises/exercise_01_hello_streamlit.py) |
-| **Quiz** | [Q01 — Fundamentals](../quizzes/quiz_01_fundamentals.md) |
+| **Reading** | [R01 — What is Streamlit?](../readings/01_streamlit_introduction.md) · [R02 — Streamlit vs Alternatives](../readings/01_streamlit_introduction.md) |
+| **Notebook** | [N01 — Your First Streamlit App](../notebooks/01_Streamlit_Introduction.ipynb) |
+| **Exercise** | [E01 — Hello Streamlit](../exercises/01_hello_streamlit.py) |
+| **Quiz** | [Q01 — Fundamentals](../quizzes/01_fundamentals.md) |
 | **App Demo** | [hello.py](../apps/hello.py) |
 
 **Topics:**
@@ -58,11 +58,11 @@
 |---|---|
 | **Week** | 1–2 |
 | **Bloom's Level** | Remember, Apply |
-| **Reading** | [R03 — Widget Internals](../readings/r03_widget_internals.md) |
-| **Notebook** | [N02 — The Widget Zoo](../notebooks/02_widgets_and_input.ipynb) |
-| **Exercise** | [E02 — Widget Master](../exercises/exercise_02_widget_master.py) |
-| **Quiz** | [Q02 — Widgets](../quizzes/quiz_02_widgets.md) |
-| **App Demo** | [widgets_demo.py](../apps/widgets_demo.py) |
+| **Reading** | [R03 — Widget Internals](../readings/03_streamlit_widgets_and_input.md) |
+| **Notebook** | [N02 — The Widget Zoo](../notebooks/03_streamlit_widgets.ipynb) |
+| **Exercise** | [E02 — Widget Master](../exercises/03_widget_mastery.py) |
+| **Quiz** | [Q02 — Widgets](../quizzes/02_widgets_input.md) |
+| **App Demo** | [widgets_demo.py](../apps/03_widgets_demo.py) |
 
 **Topics:**
 - Widget fundamentals: return values, keys, callbacks, `disabled` state
@@ -85,10 +85,10 @@
 | **Week** | 2–3 |
 | **Bloom's Level** | Apply, Understand |
 | **Reading** | (Integrated into N03) |
-| **Notebook** | [N03 — Layout Mastery](../notebooks/03_layouts_and_containers.ipynb) |
-| **Exercise** | [E03 — Layout Designer](../exercises/exercise_03_layout_designer.py) |
-| **Quiz** | [Q03 — Layouts](../quizzes/quiz_03_layouts.md) |
-| **App Demo** | [layouts_demo.py](../apps/layouts_demo.py) |
+| **Notebook** | [N03 — Layout Mastery](../notebooks/05_layouts_and_containers.ipynb) |
+| **Exercise** | [E03 — Layout Designer](../exercises/05_layout_basics.py) |
+| **Quiz** | [Q03 — Layouts](../quizzes/03_layouts_uiux.md) |
+| **App Demo** | [layouts_demo.py](../apps/05_layouts_demo.py) |
 
 **Topics:**
 - Sidebar: `st.sidebar`, sidebar widgets vs. main area
@@ -118,10 +118,10 @@
 | **Week** | 4 |
 | **Bloom's Level** | Apply, Understand |
 | **Reading** | (Integrated into N04) |
-| **Notebook** | [N04 — Data Visualization](../notebooks/04_data_visualization.ipynb) |
-| **Exercise** | [E04 — Chart Gallery](../exercises/exercise_04_chart_gallery.py) |
-| **Quiz** | [Q04 — Visualization](../quizzes/quiz_04_visualization.md) |
-| **App Demo** | [charts_demo.py](../apps/charts_demo.py) |
+| **Notebook** | [N04 — Data Visualization](../notebooks/08_interactive_visualization.ipynb) |
+| **Exercise** | [E04 — Chart Gallery](../exercises/08_visualization_workshop.py) |
+| **Quiz** | [Q04 — Visualization](../quizzes/04_dataframes_visualization.md) |
+| **App Demo** | [charts_demo.py](../apps/07_data_display_demo.py) |
 
 **Topics:**
 - Native charts: `st.line_chart`, `st.bar_chart`, `st.area_chart`, `st.scatter_chart`, `st.map`
@@ -144,11 +144,11 @@
 |---|---|
 | **Week** | 5 |
 | **Bloom's Level** | Understand, Apply |
-| **Reading** | [R04 — The Execution Model](../readings/r04_execution_model.md) · [R06 — Session State Internals](../readings/r06_session_state_internals.md) |
-| **Notebook** | [N05 — Session State Deep Dive](../notebooks/05_session_state.ipynb) |
-| **Exercise** | [E05 — State Counter](../exercises/exercise_05_state_counter.py) |
-| **Quiz** | [Q05 — Session State](../quizzes/quiz_05_session_state.md) |
-| **App Demo** | [state_demo.py](../apps/state_demo.py) |
+| **Reading** | [R04 — The Execution Model](../readings/11_session_state_and_execution.md) · [R06 — Session State Internals](../readings/11_session_state_and_execution.md) |
+| **Notebook** | [N05 — Session State Deep Dive](../notebooks/11_session_state_execution_model.ipynb) |
+| **Exercise** | [E05 — State Counter](../exercises/11_state_management_workshop.py) |
+| **Quiz** | [Q05 — Session State](../quizzes/05_session_state.md) |
+| **App Demo** | [state_demo.py](../apps/11_session_state_demo.py) |
 
 **Topics:**
 - Streamlit's execution model: top-to-bottom rerun on every interaction
@@ -171,10 +171,10 @@
 | **Week** | 5–6 |
 | **Bloom's Level** | Apply |
 | **Reading** | (Integrated into N06) |
-| **Notebook** | [N06 — Forms, Files & Data Pipelines](../notebooks/06_forms_file_handling.ipynb) |
-| **Exercise** | [E06 — Form Builder](../exercises/exercise_06_form_builder.py) |
-| **Quiz** | [Q06 — Forms & Files](../quizzes/quiz_06_forms_files.md) |
-| **App Demo** | [forms_demo.py](../apps/forms_demo.py) |
+| **Notebook** | [N06 — Forms, Files & Data Pipelines](../notebooks/09_file_upload_and_processing.ipynb) |
+| **Exercise** | [E06 — Form Builder](../exercises/09_file_upload_workshop.py) |
+| **Quiz** | [Q06 — Forms & Files](../quizzes/06_file_upload.md) |
+| **App Demo** | [forms_demo.py](../apps/04_forms_demo.py) |
 
 **Topics:**
 - `st.form` containers and `st.form_submit_button`
@@ -203,11 +203,11 @@
 |---|---|
 | **Week** | 7 |
 | **Bloom's Level** | Apply, Analyze |
-| **Reading** | [R05 — Caching Internals](../readings/r05_caching_internals.md) |
-| **Notebook** | [N07 — Performance Engineering](../notebooks/07_caching_and_performance.ipynb) |
-| **Exercise** | [E07 — Cache Challenge](../exercises/exercise_07_cache_challenge.py) |
-| **Quiz** | [Q07 — Caching](../quizzes/quiz_07_caching.md) |
-| **App Demo** | [caching_demo.py](../apps/caching_demo.py) |
+| **Reading** | [R05 — Caching Internals](../readings/12_caching_and_performance.md) |
+| **Notebook** | [N07 — Performance Engineering](../notebooks/12_caching_performance.ipynb) |
+| **Exercise** | [E07 — Cache Challenge](../exercises/12_caching_workshop.py) |
+| **Quiz** | [Q07 — Caching](../quizzes/08_caching_performance.md) |
+| **App Demo** | [caching_demo.py](../apps/12_caching_performance_demo.py) |
 
 **Topics:**
 - Why caching matters: Streamlit's rerun model and performance
@@ -231,10 +231,10 @@
 | **Week** | 8 |
 | **Bloom's Level** | Apply, Analyze |
 | **Reading** | (Integrated into N08) |
-| **Notebook** | [N08 — Building Multipage Applications](../notebooks/08_multipage_apps.ipynb) |
-| **Exercise** | [E08 — Multipage Navigator](../exercises/exercise_08_multipage_nav.py) |
-| **Quiz** | [Q08 — Multipage](../quizzes/quiz_08_multipage.md) |
-| **App Demo** | [multipage_demo/](../apps/multipage_demo/) |
+| **Notebook** | [N08 — Building Multipage Applications](../notebooks/13_application_architecture.ipynb) |
+| **Exercise** | [E08 — Multipage Navigator](../exercises/13_architecture_workshop.py) |
+| **Quiz** | [Q08 — Multipage](../quizzes/09_architecture_multipage.md) |
+| **App Demo** | [multipage_demo/](../apps/13_modular_app/) |
 
 **Topics:**
 - Page directory convention: `pages/` folder, numbering, emoji prefixes
@@ -257,11 +257,11 @@
 |---|---|
 | **Week** | 8–9 |
 | **Bloom's Level** | Apply, Analyze |
-| **Reading** | [R07 — Architecture Patterns](../readings/r07_architecture_patterns.md) |
-| **Notebook** | [N09 — Architecting Streamlit Apps](../notebooks/09_architecture_patterns.ipynb) |
-| **Exercise** | [E09 — Architecture Review](../exercises/exercise_09_architecture_review.py) |
-| **Quiz** | [Q09 — Architecture](../quizzes/quiz_09_architecture.md) |
-| **App Demo** | [architecture_demo/](../apps/architecture_demo/) |
+| **Reading** | [R07 — Architecture Patterns](../readings/13_application_architecture.md) |
+| **Notebook** | [N09 — Architecting Streamlit Apps](../notebooks/13_application_architecture.ipynb) |
+| **Exercise** | [E09 — Architecture Review](../exercises/13_architecture_workshop.py) |
+| **Quiz** | [Q09 — Architecture](../quizzes/09_architecture_multipage.md) |
+| **App Demo** | [architecture_demo/](../apps/13_modular_app/) |
 
 **Topics:**
 - Project structure: `src/`, `pages/`, `utils/`, `components/`, `assets/`, `tests/`
@@ -290,11 +290,11 @@
 |---|---|
 | **Week** | 10 |
 | **Bloom's Level** | Analyze, Apply |
-| **Reading** | [R08 — Database Design Basics](../readings/r08_database_design_basics.md) |
-| **Notebook** | [N10 — Database Connectivity](../notebooks/10_databases.ipynb) |
-| **Exercise** | [E10 — Database CRUD](../exercises/exercise_10_database_crud.py) |
-| **Quiz** | [Q10 — Databases](../quizzes/quiz_10_databases.md) |
-| **App Demo** | [db_demo.py](../apps/db_demo.py) |
+| **Reading** | [R08 — Database Design Basics](../readings/14_databases_and_persistence.md) |
+| **Notebook** | [N10 — Database Connectivity](../notebooks/14_databases_persistence.ipynb) |
+| **Exercise** | [E10 — Database CRUD](../exercises/14_database_workshop.py) |
+| **Quiz** | [Q10 — Databases](../quizzes/10_databases_persistence.md) |
+| **App Demo** | [db_demo.py](../apps/14_database_dashboard.py) |
 
 **Topics:**
 - `st.connection`: unified connection API, built-in types
@@ -318,11 +318,11 @@
 |---|---|
 | **Week** | 11 |
 | **Bloom's Level** | Analyze, Apply |
-| **Reading** | [R09 — API Design Patterns](../readings/r09_api_design_patterns.md) |
-| **Notebook** | [N11 — API Integration](../notebooks/11_api_integration.ipynb) |
-| **Exercise** | [E11 — API Fetcher](../exercises/exercise_11_api_fetcher.py) |
-| **Quiz** | [Q11 — APIs](../quizzes/quiz_11_apis.md) |
-| **App Demo** | [api_demo.py](../apps/api_demo.py) |
+| **Reading** | [R09 — API Design Patterns](../readings/13_application_architecture.md) |
+| **Notebook** | [N11 — API Integration](../notebooks/14_databases_persistence.ipynb) |
+| **Exercise** | [E11 — API Fetcher](../exercises/09_api_connectors.py) |
+| **Quiz** | [Q11 — APIs](../quizzes/10_databases_persistence.md) |
+| **App Demo** | [api_demo.py](../apps/09_file_upload_demo.py) |
 
 **Topics:**
 - HTTP in Python: `requests`, `httpx`, async patterns
@@ -345,12 +345,12 @@
 |---|---|
 | **Week** | 12 |
 | **Bloom's Level** | Apply, Analyze |
-| **Reading** | [R10 — ML Serving Patterns](../readings/r10_ml_serving_patterns.md) |
-| **Notebook** | [N12 — ML Dashboards](../notebooks/12_ml_dashboard.ipynb) |
-| **Exercise** | [E12 — ML Predictor](../exercises/exercise_12_ml_predictor.py) |
-| **Quiz** | [Q12 — ML & AI](../quizzes/quiz_12_ml_ai.md) |
-| **App Demo** | [ml_demo.py](../apps/ml_demo.py) |
-| **Assignment** | [Assignment 03 — Full Stack App](../assignments/assignment_03_full_stack_app/) |
+| **Reading** | [R10 — ML Serving Patterns](../readings/15_machine_learning_streamlit.md) |
+| **Notebook** | [N12 — ML Dashboards](../notebooks/15_ml_streamlit.ipynb) |
+| **Exercise** | [E12 — ML Predictor](../exercises/15_ml_workshop.py) |
+| **Quiz** | [Q12 — ML & AI](../quizzes/11_machine_learning.md) |
+| **App Demo** | [ml_demo.py](../apps/15_classification_app.py) |
+| **Assignment** | [Assignment 03 — Full Stack App](../assignments/A03_multipage_application.md) |
 
 **Topics:**
 - Model serialization: `joblib`, `pickle`, ONNX, security concerns
@@ -380,12 +380,12 @@
 |---|---|
 | **Week** | 13 |
 | **Bloom's Level** | Analyze, Create |
-| **Reading** | [R11 — RAG Concepts](../readings/r11_rag_concepts.md) |
-| **Notebook** | [N13 — Building AI-Powered Apps](../notebooks/13_ai_llm_apps.ipynb) |
-| **Exercise** | [E13 — Chatbot Builder](../exercises/exercise_13_chatbot_builder.py) |
+| **Reading** | [R11 — RAG Concepts](../readings/18_llm_rag_applications.md) |
+| **Notebook** | [N13 — Building AI-Powered Apps](../notebooks/18_llm_applications.ipynb) |
+| **Exercise** | [E13 — Chatbot Builder](../exercises/18_llm_workshop.py) |
 | **Quiz** | (Covered in Q12) |
-| **App Demo** | [ai_chat_demo.py](../apps/ai_chat_demo.py) |
-| **Project** | [P07 — RAG Document Chat](../projects/p07_rag_chat/) |
+| **App Demo** | [ai_chat_demo.py](../apps/18_llm_chat.py) |
+| **Project** | [P07 — RAG Document Chat](../projects/P07_rag_document_chat.md) |
 
 **Topics:**
 - NLP basics in Streamlit: text classification, sentiment analysis
@@ -417,11 +417,11 @@
 |---|---|
 | **Week** | 14 |
 | **Bloom's Level** | Evaluate, Apply |
-| **Reading** | [R12 — Security Best Practices](../readings/r12_security_best_practices.md) · [R13 — Testing Strategies](../readings/r13_testing_strategies.md) |
-| **Notebook** | [N14 — Testing & Securing Apps](../notebooks/14_testing_security.ipynb) |
-| **Exercise** | [E14 — Test Suite](../exercises/exercise_14_test_suite.py) |
+| **Reading** | [R12 — Security Best Practices](../readings/security_and_secrets.md) · [R13 — Testing Strategies](../readings/13_application_architecture.md) |
+| **Notebook** | [N14 — Testing & Securing Apps](../notebooks/security_practical_lab.ipynb) |
+| **Exercise** | [E14 — Test Suite](../exercises/16_production_ready.py) |
 | **Quiz** | (Integrated into capstone assessment) |
-| **App Demo** | [test_demo.py](../apps/test_demo.py) |
+| **App Demo** | [test_demo.py](../apps/01_introduction_demo.py) |
 
 **Topics:**
 - `st.testing.AppTest`: Streamlit's native testing framework
@@ -446,11 +446,11 @@
 |---|---|
 | **Week** | 15 |
 | **Bloom's Level** | Evaluate, Apply |
-| **Reading** | [R14 — Deployment Options](../readings/r14_deployment_options.md) |
-| **Notebook** | [N15 — Deploy to the World](../notebooks/15_deployment_guide.ipynb) |
-| **Exercise** | [E15 — Deploy Pipeline](../exercises/exercise_15_deploy_pipeline.py) |
+| **Reading** | [R14 — Deployment Options](../readings/deployment_guide.md) |
+| **Notebook** | [N15 — Deploy to the World](../notebooks/deployment_tutorial.ipynb) |
+| **Exercise** | [E15 — Deploy Pipeline](../exercises/deployment_exercises.py) |
 | **Quiz** | (Integrated into capstone assessment) |
-| **App Demo** | [deployed_app/](../apps/deployed_app/) |
+| **App Demo** | [deployed_app/](../apps/deployable_app/) |
 
 **Topics:**
 - Community Cloud overview: free hosting, GitHub integration, auto-deploy
@@ -474,9 +474,9 @@
 |---|---|
 | **Week** | 16 |
 | **Bloom's Level** | Evaluate, Create |
-| **Reading** | [R15 — Production Checklist](../readings/r15_production_checklist.md) |
-| **Notebook** | [N16 — Production Readiness](../notebooks/16_production_readiness.ipynb) |
-| **Exercise** | [E16 — Monitoring Setup](../exercises/exercise_16_monitoring.py) |
+| **Reading** | [R15 — Production Checklist](../readings/deployment_guide.md) |
+| **Notebook** | [N16 — Production Readiness](../notebooks/deployment_tutorial.ipynb) |
+| **Exercise** | [E16 — Monitoring Setup](../exercises/16_production_ready.py) |
 | **Quiz** | (Integrated into capstone assessment) |
 
 **Topics:**
