@@ -87,7 +87,8 @@ Streamlit-for-Data-Science/
 │   ├── 06_dashboard_design_ui_ux.md  # Status, metrics, accessibility, DS dashboard design
 │   ├── 07_data_display_dataframes.md # st.dataframe, column_config, Styler, filtering
 │   ├── 08_visualization_matplotlib_plotly.md # Native charts, Matplotlib, Plotly, chart selection
-│   └── 09_file_upload_and_processing.md    # st.file_uploader, validation, cleaning, download
+│   ├── 09_file_upload_and_processing.md    # st.file_uploader, validation, cleaning, download
+│   └── 10_interactive_dashboard.md         # Dashboard architecture, filters, KPIs, layout
 ├── notebooks/               📓 Jupyter notebooks (primary learning)
 │   ├── 01_Streamlit_Introduction.ipynb # Concepts, comparisons, intuition
 │   ├── 02_First_Streamlit_App.ipynb    # Installation, text elements, rerun model
@@ -97,7 +98,8 @@ Streamlit-for-Data-Science/
 │   ├── 06_data_science_dashboards.ipynb # KPIs, status feedback, accessibility, dashboard design
 │   ├── 07_dataframes_tables_pandas.ipynb # DataFrame display, column_config, filtering, Styler
 │   ├── 08_interactive_visualization.ipynb # Native charts, Matplotlib, Plotly, chart selection
-│   └── 09_file_upload_and_processing.ipynb # Upload, validate, clean, analyze, download pipeline
+│   ├── 09_file_upload_and_processing.ipynb # Upload, validate, clean, analyze, download pipeline
+│   └── 10_interactive_dashboard.ipynb      # Dashboard architecture, filters, KPIs, layout
 ├── exercises/               ✏️ Module exercises (one per module)
 ├── quizzes/                 📝 Weekly quizzes
 ├── assignments/             📋 Graded assignments (4 per semester)
@@ -113,7 +115,8 @@ Streamlit-for-Data-Science/
 │   ├── 05_layouts_demo.py              # Layout elements showcase
 │   ├── 06_dashboard_demo.py            # Complete Sales Analytics Dashboard
 │   ├── 07_data_display_demo.py         # Data Display & Visualization Dashboard
-│   └── 09_file_upload_demo.py          # File Upload & Processing Dashboard
+│   ├── 09_file_upload_demo.py          # File Upload & Processing Dashboard
+│   └── 10_interactive_data_explorer.py # Interactive Data Explorer Dashboard
 ├── data/                    📊 Shared datasets
 ├── tests/                   🧪 Test examples using st.testing.AppTest
 │
@@ -214,7 +217,7 @@ streamlit run apps/hello.py --server.headless true
 | 2–3 | M03 | Layouts, Containers & Pages | Beginner | [📖 Reading 05](readings/05_layouts_and_containers.md) · [📖 Reading 06](readings/06_dashboard_design_ui_ux.md) · [📓 Notebook 05](notebooks/05_layouts_and_containers.ipynb) · [📓 Notebook 06](notebooks/06_data_science_dashboards.ipynb) · [🖥️ Demo](apps/05_layouts_demo.py) · [🖥️ Demo](apps/06_dashboard_demo.py) |
 | 4 | M04 | Data Visualization | Intermediate | [📖 Reading 07](readings/07_data_display_dataframes.md) · [📖 Reading 08](readings/08_visualization_matplotlib_plotly.md) · [📓 Notebook 07](notebooks/07_dataframes_tables_pandas.ipynb) · [📓 Notebook 08](notebooks/08_interactive_visualization.ipynb) · [🖥️ Demo](apps/07_data_display_demo.py) |
 | 5 | [M05](notebooks/) | Session State & App Memory | Intermediate |
-| 5–6 | M06 | Forms, Inputs & File Handling | Intermediate | [📖 Reading 09](readings/09_file_upload_and_processing.md) · [📓 Notebook 09](notebooks/09_file_upload_and_processing.ipynb) · [✏️ Exercise 09](exercises/09_file_upload_workshop.py) · [🖥️ Demo](apps/09_file_upload_demo.py) |
+| 5–6 | M06 | Forms, Inputs & File Handling | Intermediate | [📖 Reading 09](readings/09_file_upload_and_processing.md) · [📖 Reading 10](readings/10_interactive_dashboard.md) · [📓 Notebook 09](notebooks/09_file_upload_and_processing.ipynb) · [📓 Notebook 10](notebooks/10_interactive_dashboard.ipynb) · [✏️ Exercise 09](exercises/09_file_upload_workshop.py) · [✏️ Exercise 10](exercises/10_dashboard_workshop.py) · [🖥️ Demo](apps/09_file_upload_demo.py) · [🖥️ Demo](apps/10_interactive_data_explorer.py) |
 | 7 | [M07](notebooks/) | Caching, Fragments & Performance | Advanced |
 | 8 | [M08](notebooks/) | Multipage Apps & Navigation | Advanced |
 | 8–9 | [M09](notebooks/) | Architecture & Design Patterns | Advanced |
@@ -233,7 +236,7 @@ streamlit run apps/hello.py --server.headless true
 | # | Project | Level | Key Skills |
 |---|---|---|---|
 | P01 | Personal Dashboard | Beginner | `st.write`, widgets, layout, theming |
-| P02 | Data Explorer | Intermediate | File upload, Pandas, charts, session state |
+| P02 | [Data Explorer](projects/P02_data_explorer.md) | Intermediate | File upload, Pandas, charts, session state |
 | P03 | Form-Based Survey Tool | Intermediate | Forms, validation, file handling |
 | P04 | Real-Time Dashboard | Advanced | Caching, fragments, `run_every` |
 | P05 | CRUD Database App | Advanced | SQL, forms, authentication |
