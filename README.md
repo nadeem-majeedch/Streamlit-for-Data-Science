@@ -99,7 +99,8 @@ Streamlit-for-Data-Science/
 │   ├── 07_dataframes_tables_pandas.ipynb # DataFrame display, column_config, filtering, Styler
 │   ├── 08_interactive_visualization.ipynb # Native charts, Matplotlib, Plotly, chart selection
 │   ├── 09_file_upload_and_processing.ipynb # Upload, validate, clean, analyze, download pipeline
-│   └── 10_interactive_dashboard.ipynb      # Dashboard architecture, filters, KPIs, layout
+│   ├── 10_interactive_dashboard.ipynb      # Dashboard architecture, filters, KPIs, layout
+│   └── 11_session_state_execution_model.ipynb # Reruns, session state, multi-step workflows
 ├── exercises/               ✏️ Module exercises (one per module)
 ├── quizzes/                 📝 Weekly quizzes
 ├── assignments/             📋 Graded assignments (4 per semester)
@@ -116,7 +117,8 @@ Streamlit-for-Data-Science/
 │   ├── 06_dashboard_demo.py            # Complete Sales Analytics Dashboard
 │   ├── 07_data_display_demo.py         # Data Display & Visualization Dashboard
 │   ├── 09_file_upload_demo.py          # File Upload & Processing Dashboard
-│   └── 10_interactive_data_explorer.py # Interactive Data Explorer Dashboard
+│   ├── 10_interactive_data_explorer.py # Interactive Data Explorer Dashboard
+│   └── 11_session_state_demo.py       # Session State & Execution Model Demo
 ├── data/                    📊 Shared datasets
 ├── tests/                   🧪 Test examples using st.testing.AppTest
 │
@@ -216,7 +218,7 @@ streamlit run apps/hello.py --server.headless true
 | 1–2 | M02 | Widgets & User Input | Beginner | [📖 Reading 03](readings/03_streamlit_widgets_and_input.md) · [📖 Reading 04](readings/04_widget_keys_and_behavior.md) · [📓 Notebook 03](notebooks/03_streamlit_widgets.ipynb) · [📓 Notebook 04](notebooks/04_interactive_ds_controls.ipynb) · [🖥️ Demo](apps/03_widgets_demo.py) · [🖥️ Demo](apps/04_forms_demo.py) |
 | 2–3 | M03 | Layouts, Containers & Pages | Beginner | [📖 Reading 05](readings/05_layouts_and_containers.md) · [📖 Reading 06](readings/06_dashboard_design_ui_ux.md) · [📓 Notebook 05](notebooks/05_layouts_and_containers.ipynb) · [📓 Notebook 06](notebooks/06_data_science_dashboards.ipynb) · [🖥️ Demo](apps/05_layouts_demo.py) · [🖥️ Demo](apps/06_dashboard_demo.py) |
 | 4 | M04 | Data Visualization | Intermediate | [📖 Reading 07](readings/07_data_display_dataframes.md) · [📖 Reading 08](readings/08_visualization_matplotlib_plotly.md) · [📓 Notebook 07](notebooks/07_dataframes_tables_pandas.ipynb) · [📓 Notebook 08](notebooks/08_interactive_visualization.ipynb) · [🖥️ Demo](apps/07_data_display_demo.py) |
-| 5 | [M05](notebooks/) | Session State & App Memory | Intermediate |
+| 5 | M05 | Session State & App Memory | Intermediate | [📖 Reading 11](readings/11_session_state_and_execution.md) · [📓 Notebook 11](notebooks/11_session_state_execution_model.ipynb) · [✏️ Exercise 11](exercises/11_state_management_workshop.py) · [🖥️ Demo](apps/11_session_state_demo.py) · [📝 Quiz 07](quizzes/07_session_state.md) |
 | 5–6 | M06 | Forms, Inputs & File Handling | Intermediate | [📖 Reading 09](readings/09_file_upload_and_processing.md) · [📖 Reading 10](readings/10_interactive_dashboard.md) · [📓 Notebook 09](notebooks/09_file_upload_and_processing.ipynb) · [📓 Notebook 10](notebooks/10_interactive_dashboard.ipynb) · [✏️ Exercise 09](exercises/09_file_upload_workshop.py) · [✏️ Exercise 10](exercises/10_dashboard_workshop.py) · [🖥️ Demo](apps/09_file_upload_demo.py) · [🖥️ Demo](apps/10_interactive_data_explorer.py) |
 | 7 | [M07](notebooks/) | Caching, Fragments & Performance | Advanced |
 | 8 | [M08](notebooks/) | Multipage Apps & Navigation | Advanced |
