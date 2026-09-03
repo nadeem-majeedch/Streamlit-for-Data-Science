@@ -25,7 +25,7 @@ The course is organized into **6 progression levels** across **16 modules**:
 | **[AI / NLP / LLM](docs/curriculum.md#level-5--ainlp--llm)** | M13 Chat, RAG & LLM Apps | 13 | Analyze, Create |
 | **[Deployment & Production](docs/curriculum.md#level-6--deployment--production)** | M14 Testing & Security · M15 Cloud Deploy · M16 Maintenance | 14–16 | Evaluate, Create |
 
-> 📋 **[Full Curriculum](docs/curriculum.md)** · **[Visual Roadmap](docs/roadmap.md)** · **[Learning Outcomes](docs/learning_outcomes.md)**
+> 📋 **[Full Curriculum](docs/curriculum.md)** · **[Curriculum Map](docs/curriculum_map.md)** · **[Visual Roadmap](docs/roadmap.md)** · **[Learning Outcomes](docs/learning_outcomes.md)** · **[Outcome Matrix](docs/learning_outcome_matrix.md)**
 
 ---
 
@@ -80,8 +80,10 @@ Streamlit-for-Data-Science/
 ├── docs/                    📚 Course blueprint, syllabus, cheatsheets
 │   ├── course_blueprint.md            # Internal course planning
 │   ├── curriculum.md                  # Full curriculum details
-│   ├── roadmap.md                     # Visual course progression
+│   ├── curriculum_map.md              # Module→resource mapping table
 │   ├── learning_outcomes.md           # Learning outcomes & CLO mapping
+│   ├── learning_outcome_matrix.md     # TAUGHT→PRACTICED→ASSESSED→APPLIED chains
+│   ├── roadmap.md                     # Visual course progression
 │   ├── deployment_checklist.md       # Pre-deployment checklist & verification
 │   ├── deployment_troubleshooting.md # Common deployment issues and solutions
 │   └── security.md                    # Security guide & best practices

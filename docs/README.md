@@ -10,8 +10,10 @@
 |----------|---------|----------|
 | [Course Blueprint](course_blueprint.md) | Original course design and planning | Instructors |
 | [Curriculum](curriculum.md) | Full curriculum with module details | Instructors, Students |
+| [Curriculum Map](curriculum_map.md) | Module-to-resource mapping table | Instructors, Students |
 | [Roadmap](roadmap.md) | Visual course progression map | Students |
 | [Learning Outcomes](learning_outcomes.md) | CLO definitions and assessment mapping | Instructors |
+| [Learning Outcome Matrix](learning_outcome_matrix.md) | TAUGHT→PRACTICED→ASSESSED→APPLIED chains | Instructors |
 | [Security Guide](security.md) | Security best practices | All |
 | [Deployment Checklist](deployment_checklist.md) | Pre-deployment verification | Students |
 | [Deployment Troubleshooting](deployment_troubleshooting.md) | Common deployment issues | Students, Instructors |
