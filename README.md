@@ -94,7 +94,8 @@ Streamlit-for-Data-Science/
 │   ├── 13_application_architecture.md   # Architecture, modules, multipage, testing
 │   ├── 14_databases_and_persistence.md  # SQLite, SQL, CRUD, secrets, SQL injection
 │   ├── 15_machine_learning_streamlit.md # ML deployment, preprocessing, classification, regression
-│   └── 17_nlp_ai_applications.md      # NLP, text classification, sentiment analysis, TF-IDF
+│   ├── 17_nlp_ai_applications.md      # NLP, text classification, sentiment analysis, TF-IDF
+│   └── 18_llm_rag_applications.md    # LLM architecture, RAG, chat, streaming, security
 ├── notebooks/               📓 Jupyter notebooks (primary learning)
 │   ├── 01_Streamlit_Introduction.ipynb # Concepts, comparisons, intuition
 │   ├── 02_First_Streamlit_App.ipynb    # Installation, text elements, rerun model
@@ -111,7 +112,8 @@ Streamlit-for-Data-Science/
 │   ├── 13_application_architecture.ipynb     # Architecture evolution, multipage, components
 │   ├── 14_databases_persistence.ipynb        # SQLite, SQL basics, CRUD, connection caching
 │   ├── 15_ml_streamlit.ipynb                # Model persistence, preprocessing, classification, regression
-│   └── 17_nlp_applications.ipynb            # NLP workflow, TF-IDF, text classification, batch processing
+│   ├── 17_nlp_applications.ipynb            # NLP workflow, TF-IDF, text classification, batch processing
+│   └── 18_llm_applications.ipynb            # LLM providers, secrets, chat, RAG, streaming
 ├── exercises/               ✏️ Module exercises (one per module)
 │   ├── 03_widget_mastery.py
 │   ├── 04_dataset_filter_app.py
@@ -126,7 +128,8 @@ Streamlit-for-Data-Science/
 │   ├── 13_architecture_workshop.py
 │   ├── 14_database_workshop.py
 │   ├── 15_ml_workshop.py
-│   └── 17_nlp_workshop.py
+│   ├── 17_nlp_workshop.py
+│   └── 18_llm_workshop.py
 ├── quizzes/                 📝 Weekly quizzes
 │   ├── 02_widgets_input.md
 │   ├── 03_layouts_uiux.md
@@ -137,7 +140,8 @@ Streamlit-for-Data-Science/
 │   ├── 09_architecture_multipage.md
 │   ├── 10_databases_persistence.md
 │   ├── 11_machine_learning.md
-│   └── 13_nlp_ai.md
+│   ├── 13_nlp_ai.md
+│   └── 14_llm_rag.md
 ├── assignments/             📋 Graded assignments (4 per semester)
 ├── assessments/             🎯 Pre-course, midterm, final exam materials
 ├── projects/                🚀 Project templates (P01–P08 Capstone)
@@ -161,7 +165,9 @@ Streamlit-for-Data-Science/
 │   ├── 14_database_dashboard.py      # SQLite Database Dashboard
 │   ├── 15_classification_app.py      # Iris Classification App
 │   ├── 15_regression_app.py          # California Housing Regression App
-│   └── 17_sentiment_app.py          # Sentiment Analysis App
+│   ├── 17_sentiment_app.py          # Sentiment Analysis App
+│   ├── 18_llm_chat.py              # LLM Chat App (Demo/OpenAI/Local)
+│   └── 18_rag_app.py               # RAG Document Q&A App
 ├── data/                    📊 Shared datasets
 ├── tests/                   🧪 Test examples using st.testing.AppTest
 │
@@ -270,7 +276,7 @@ streamlit run apps/hello.py --server.headless true
 | 11 | M11 | APIs, Connectors & External Data | Advanced |
 | 12 | M12 | ML Model Deployment | ML | [📖 Reading 15](readings/15_machine_learning_streamlit.md) · [📓 Notebook 15](notebooks/15_ml_streamlit.ipynb) · [✏️ Exercise 15](exercises/15_ml_workshop.py) · [🖥️ Classification](apps/15_classification_app.py) · [🖥️ Regression](apps/15_regression_app.py) · [📝 Quiz 11](quizzes/11_machine_learning.md) · [🚀 Project P06](projects/P06_ml_model_playground.md) |
 | 13 | M13 | NLP, AI & LLM Applications | AI/LLM | [📖 Reading 17](readings/17_nlp_ai_applications.md) · [📓 Notebook 17](notebooks/17_nlp_applications.ipynb) · [✏️ Exercise 17](exercises/17_nlp_workshop.py) · [🖥️ Sentiment App](apps/17_sentiment_app.py) · [📝 Quiz 13](quizzes/13_nlp_ai.md) · [🚀 Project P07](projects/P07_rag_document_chat.md) |
-| 14 | [M14](notebooks/) | Testing, Security & CI/CD | Advanced |
+| 14 | M14 | Testing, Security & CI/CD | Advanced | [📖 Reading 18](readings/18_llm_rag_applications.md) · [📓 Notebook 18](notebooks/18_llm_applications.ipynb) · [✏️ Exercise 18](exercises/18_llm_workshop.py) · [🖥️ LLM Chat](apps/18_llm_chat.py) · [🖥️ RAG Q&A](apps/18_rag_app.py) · [📝 Quiz 14](quizzes/14_llm_rag.md) · [🚀 Project P07](projects/P07_rag_document_chat.md) |
 | 15 | [M15](notebooks/) | Streamlit Community Cloud & Deployment | Deployment |
 | 16 | [M16](notebooks/) | Production, Maintenance & Monitoring | Production |
 
