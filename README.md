@@ -200,8 +200,22 @@ Streamlit-for-Data-Science/
 │   ├── P18_production_dashboard.md  # Expert: Production-quality dashboard
 │   ├── P19_ai_powered_app.md        # Expert: AI-powered data science app
 │   └── P20_complete_deployed_app.md  # Expert: Complete deployed ML/AI app
-├── instructor/              👩‍🏫 Answer keys, grading guides, slides
-│   └── exercise_guide.md               # Grading guide, solutions overview, rubrics
+├── instructor/              👩‍🏫 Instructor-only teaching materials (not for students)
+│   ├── README.md                       # Instructor hub with navigation
+│   ├── course_plan.md                  # 16-week semester schedule
+│   ├── teaching_roadmap.md             # Module progression & prerequisites
+│   ├── 2_hour_lecture_plan.md          # Session-by-session lecture plans
+│   ├── lab_activities.md               # Hands-on lab guides with solutions
+│   ├── discussion_questions.md         # Discussion prompts by topic
+│   ├── assessment_strategy.md          # Grading policies, rubrics, CLO mapping
+│   ├── common_student_mistakes.md      # Error catalog with interventions
+│   ├── solution_guide.md               # Exercise & assignment solution walkthroughs
+│   ├── exercise_guide.md               # Per-exercise grading notes
+│   ├── deployment_troubleshooting.md   # Instructor guide for deployment issues
+│   └── solutions/                      # Exercise & assignment solutions (do not share)
+│       ├── exercises_solutions/        # Runnable .py solutions
+│       ├── exercise_notes/             # Markdown grading guides
+│       └── assignment_solutions/       # Assignment grading guides
 ├── apps/                    🖥️ Runnable Streamlit demo apps
 │   ├── hello.py                        # Environment verification
 │   ├── 01_introduction_demo.py         # Text elements, rerun model, data display
@@ -444,14 +458,15 @@ Found a bug or broken exercise? [Open an issue](../../issues) with:
 | Component | Weight | Count | Assessment Type |
 |---|---|---|---|
 | Weekly Quizzes | 10% | 16 | MCQ, short answer, code questions |
-| Exercises | 20% | 20 | Coding, debugging, design challenges |
 | Lab Assessments | 10% | 3 | In-class supervised practicals |
-| Assignments | 15% | 4 | Take-home project submissions |
 | Mid-Course Assessment | 10% | 1 | 2-hour exam (conceptual + coding) |
 | Practical Exam | 10% | 1 | 3-hour timed coding exam |
-| Final Practical | 15% | 1 | 4-hour comprehensive practical |
+| Assignments | 20% | 4 | Take-home project submissions (A01–A04) |
+| Final Practical Assessment | 15% | 1 | 4-hour comprehensive practical |
 | Capstone Project | 15% | 1 | 3-week project + presentation |
-| **Total** | **105%** | | (5% buffer for participation) |
+| Participation | 5% | — | Attendance, discussion, peer review |
+| Pre/Post Assessment | 5% | 2 | Placement + growth measurement |
+| **Total** | **100%** | | |
 
 ### Bloom's Taxonomy Distribution
 
