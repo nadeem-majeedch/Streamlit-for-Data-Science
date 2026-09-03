@@ -25,7 +25,11 @@ EXPERT (M14–M16)
 ├── P18 Production Dashboard
 ├── P19 AI-Powered App
 ├── P20 Complete Deployed App
-└── P08 Capstone Project
+└── 🎓 Final Capstone (definitive)
+    ├── final_capstone.md      # Complete specification
+    ├── capstone_rubric.md     # Detailed grading rubric
+    ├── capstone_submission_checklist.md
+    └── capstone_presentation.md
 ```
 
 ---
@@ -41,6 +45,7 @@ EXPERT (M14–M16)
 | P05 | [EDA Dashboard](P05_eda_dashboard.md) | Intermediate | ★★☆☆☆ | 1.5 weeks | M04–M06 | Multi-tab exploration, distributions, correlations |
 | P06 | [ML Model Playground](P06_ml_model_playground.md) | Advanced | ★★★☆☆ | 2 weeks | M10–M12 | Model training, evaluation, prediction |
 | P08 | [Capstone Project](P08_capstone_project.md) | Expert | ★★★★★ | 3 weeks | M14–M16 | Full-stack, all skills |
+| 🎓 | [**Final Capstone**](final_capstone.md) | Expert | ★★★★★ | 4 weeks | M01–M16 | All 12 CLOs, 17-step workflow |
 | P09 | [Visualization Dashboard](P09_visualization_dashboard.md) | Intermediate | ★★★☆☆ | 1.5 weeks | M04–M06 | Plotly, Matplotlib, chart selection |
 | P10 | [Student Performance Analytics](P10_student_performance.md) | Intermediate | ★★★☆☆ | 2 weeks | M04–M06 | Domain-specific analytics, complex filtering |
 | P11 | [ML Prediction App](P11_ml_prediction_app.md) | Advanced | ★★★☆☆ | 2 weeks | M10–M12 | Model deployment, preprocessing, batch prediction |
