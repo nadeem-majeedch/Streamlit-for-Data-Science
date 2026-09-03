@@ -90,7 +90,8 @@ Streamlit-for-Data-Science/
 │   ├── 09_file_upload_and_processing.md    # st.file_uploader, validation, cleaning, download
 │   ├── 10_interactive_dashboard.md         # Dashboard architecture, filters, KPIs, layout
 │   ├── 11_session_state_and_execution.md  # Reruns, session state, multi-step workflows
-│   └── 12_caching_and_performance.md     # @st.cache_data, @st.cache_resource, TTL, invalidation
+│   ├── 12_caching_and_performance.md     # @st.cache_data, @st.cache_resource, TTL, invalidation
+│   └── 13_application_architecture.md   # Architecture, modules, multipage, testing
 ├── notebooks/               📓 Jupyter notebooks (primary learning)
 │   ├── 01_Streamlit_Introduction.ipynb # Concepts, comparisons, intuition
 │   ├── 02_First_Streamlit_App.ipynb    # Installation, text elements, rerun model
@@ -103,7 +104,8 @@ Streamlit-for-Data-Science/
 │   ├── 09_file_upload_and_processing.ipynb # Upload, validate, clean, analyze, download pipeline
 │   ├── 10_interactive_dashboard.ipynb      # Dashboard architecture, filters, KPIs, layout
 │   ├── 11_session_state_execution_model.ipynb # Reruns, session state, multi-step workflows
-│   └── 12_caching_performance.ipynb           # Cache basics, cache_data vs cache_resource, TTL
+│   ├── 12_caching_performance.ipynb           # Cache basics, cache_data vs cache_resource, TTL
+│   └── 13_application_architecture.ipynb     # Architecture evolution, multipage, components
 ├── exercises/               ✏️ Module exercises (one per module)
 │   ├── 03_widget_mastery.py
 │   ├── 04_dataset_filter_app.py
@@ -114,14 +116,16 @@ Streamlit-for-Data-Science/
 │   ├── 09_file_upload_workshop.py
 │   ├── 10_dashboard_workshop.py
 │   ├── 11_state_management_workshop.py
-│   └── 12_caching_workshop.py
+│   ├── 12_caching_workshop.py
+│   └── 13_architecture_workshop.py
 ├── quizzes/                 📝 Weekly quizzes
 │   ├── 02_widgets_input.md
 │   ├── 03_layouts_uiux.md
 │   ├── 04_dataframes_visualization.md
 │   ├── 06_file_upload.md
 │   ├── 07_session_state.md
-│   └── 08_caching_performance.md
+│   ├── 08_caching_performance.md
+│   └── 09_architecture_multipage.md
 ├── assignments/             📋 Graded assignments (4 per semester)
 ├── assessments/             🎯 Pre-course, midterm, final exam materials
 ├── projects/                🚀 Project templates (P01–P08 Capstone)
@@ -138,7 +142,8 @@ Streamlit-for-Data-Science/
 │   ├── 09_file_upload_demo.py          # File Upload & Processing Dashboard
 │   ├── 10_interactive_data_explorer.py # Interactive Data Explorer Dashboard
 │   ├── 11_session_state_demo.py       # Session State & Execution Model Demo
-│   └── 12_caching_performance_demo.py # Caching & Performance Demo
+│   ├── 12_caching_performance_demo.py # Caching & Performance Demo
+│   └── 13_modular_app/               # Modular multipage app example
 ├── data/                    📊 Shared datasets
 ├── tests/                   🧪 Test examples using st.testing.AppTest
 │
@@ -241,7 +246,7 @@ streamlit run apps/hello.py --server.headless true
 | 5 | M05 | Session State & App Memory | Intermediate | [📖 Reading 11](readings/11_session_state_and_execution.md) · [📓 Notebook 11](notebooks/11_session_state_execution_model.ipynb) · [✏️ Exercise 11](exercises/11_state_management_workshop.py) · [🖥️ Demo](apps/11_session_state_demo.py) · [📝 Quiz 07](quizzes/07_session_state.md) |
 | 5–6 | M06 | Forms, Inputs & File Handling | Intermediate | [📖 Reading 09](readings/09_file_upload_and_processing.md) · [📖 Reading 10](readings/10_interactive_dashboard.md) · [📓 Notebook 09](notebooks/09_file_upload_and_processing.ipynb) · [📓 Notebook 10](notebooks/10_interactive_dashboard.ipynb) · [✏️ Exercise 09](exercises/09_file_upload_workshop.py) · [✏️ Exercise 10](exercises/10_dashboard_workshop.py) · [🖥️ Demo](apps/09_file_upload_demo.py) · [🖥️ Demo](apps/10_interactive_data_explorer.py) |
 | 7 | M07 | Caching, Fragments & Performance | Advanced | [📖 Reading 12](readings/12_caching_and_performance.md) · [📓 Notebook 12](notebooks/12_caching_performance.ipynb) · [✏️ Exercise 12](exercises/12_caching_workshop.py) · [🖥️ Demo](apps/12_caching_performance_demo.py) · [📝 Quiz 08](quizzes/08_caching_performance.md) |
-| 8 | [M08](notebooks/) | Multipage Apps & Navigation | Advanced |
+| 8 | M08 | Multipage Apps & Navigation | Advanced | [📖 Reading 13](readings/13_application_architecture.md) · [📓 Notebook 13](notebooks/13_application_architecture.ipynb) · [✏️ Exercise 13](exercises/13_architecture_workshop.py) · [🖥️ Demo](apps/13_modular_app/app.py) · [📝 Quiz 09](quizzes/09_architecture_multipage.md) |
 | 8–9 | [M09](notebooks/) | Architecture & Design Patterns | Advanced |
 | 10 | [M10](notebooks/) | Databases & Persistent Storage | Advanced |
 | 11 | [M11](notebooks/) | APIs, Connectors & External Data | Advanced |
