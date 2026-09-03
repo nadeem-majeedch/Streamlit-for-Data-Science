@@ -78,6 +78,11 @@ Concept → Intuition → Visual Explanation → Example → Code → Run
 Streamlit-for-Data-Science/
 │
 ├── docs/                    📚 Course blueprint, syllabus, cheatsheets
+│   ├── course_blueprint.md            # Internal course planning
+│   ├── curriculum.md                  # Full curriculum details
+│   ├── roadmap.md                     # Visual course progression
+│   ├── learning_outcomes.md           # Learning outcomes & CLO mapping
+│   └── security.md                    # Security guide & best practices
 ├── readings/                📖 Conceptual readings
 │   ├── 01_streamlit_introduction.md   # What is Streamlit, comparisons
 │   ├── 02_first_streamlit_app.md      # Installation, first app, execution model
@@ -95,7 +100,8 @@ Streamlit-for-Data-Science/
 │   ├── 14_databases_and_persistence.md  # SQLite, SQL, CRUD, secrets, SQL injection
 │   ├── 15_machine_learning_streamlit.md # ML deployment, preprocessing, classification, regression
 │   ├── 17_nlp_ai_applications.md      # NLP, text classification, sentiment analysis, TF-IDF
-│   └── 18_llm_rag_applications.md    # LLM architecture, RAG, chat, streaming, security
+│   ├── 18_llm_rag_applications.md    # LLM architecture, RAG, chat, streaming, security
+│   └── security_and_secrets.md       # Security best practices, secrets, validation, SQL injection
 ├── notebooks/               📓 Jupyter notebooks (primary learning)
 │   ├── 01_Streamlit_Introduction.ipynb # Concepts, comparisons, intuition
 │   ├── 02_First_Streamlit_App.ipynb    # Installation, text elements, rerun model
@@ -113,7 +119,8 @@ Streamlit-for-Data-Science/
 │   ├── 14_databases_persistence.ipynb        # SQLite, SQL basics, CRUD, connection caching
 │   ├── 15_ml_streamlit.ipynb                # Model persistence, preprocessing, classification, regression
 │   ├── 17_nlp_applications.ipynb            # NLP workflow, TF-IDF, text classification, batch processing
-│   └── 18_llm_applications.ipynb            # LLM providers, secrets, chat, RAG, streaming
+│   ├── 18_llm_applications.ipynb            # LLM providers, secrets, chat, RAG, streaming
+│   └── security_practical_lab.ipynb        # Security exercises, validation, SQL injection, LLM security
 ├── exercises/               ✏️ Module exercises (one per module)
 │   ├── 03_widget_mastery.py
 │   ├── 04_dataset_filter_app.py
@@ -129,7 +136,8 @@ Streamlit-for-Data-Science/
 │   ├── 14_database_workshop.py
 │   ├── 15_ml_workshop.py
 │   ├── 17_nlp_workshop.py
-│   └── 18_llm_workshop.py
+│   ├── 18_llm_workshop.py
+│   └── security_exercises.md              # Security exercises (secrets, validation, SQL, file, LLM)
 ├── quizzes/                 📝 Weekly quizzes
 │   ├── 02_widgets_input.md
 │   ├── 03_layouts_uiux.md
