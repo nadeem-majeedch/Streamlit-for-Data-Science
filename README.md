@@ -141,6 +141,9 @@ Streamlit-for-Data-Science/
 │   ├── 15_ml_workshop.py
 │   ├── 17_nlp_workshop.py
 │   ├── 18_llm_workshop.py
+│   ├── 01_hello_streamlit.py              # M01: Text, data display, structure, output prediction
+│   ├── 09_api_connectors.py               # M09: API fetch, JSON parsing, nested data, design
+│   ├── 16_production_ready.py             # M16: Error handling, logging, health checks, debugging
 │   ├── deployment_exercises.py            # Deployment preparation, debugging, security exercises
 │   └── security_exercises.md              # Security exercises (secrets, validation, SQL, file, LLM)
 ├── quizzes/                 📝 Weekly quizzes
@@ -157,12 +160,17 @@ Streamlit-for-Data-Science/
 │   ├── 14_llm_rag.md
 │   └── 15_deployment.md                   # Deployment, Community Cloud, secrets, troubleshooting
 ├── assignments/             📋 Graded assignments (4 per semester)
+│   ├── A01_personal_dashboard.md         # Beginner: Personal dashboard (M01–M03, 4%)
+│   ├── A02_data_explorer.md              # Intermediate: Data explorer with upload (M04–M06, 4%)
+│   ├── A03_multipage_application.md      # Advanced: Multipage app with DB (M07–M10, 4%)
+│   └── A04_ml_production_app.md          # Production: ML app + deploy (M11–M16, 8%)
 ├── assessments/             🎯 Pre-course, midterm, final exam materials
 ├── projects/                🚀 Project templates (P01–P08 Capstone)
 │   ├── P06_ml_model_playground.md   # ML Model Playground project spec
 │   ├── P07_rag_document_chat.md     # RAG Document Chat project spec
 │   └── P08_capstone_project.md      # Capstone Project spec (full-stack deployment)
 ├── instructor/              👩‍🏫 Answer keys, grading guides, slides
+│   └── exercise_guide.md               # Grading guide, solutions overview, rubrics
 ├── apps/                    🖥️ Runnable Streamlit demo apps
 │   ├── hello.py                        # Environment verification
 │   ├── 01_introduction_demo.py         # Text elements, rerun model, data display
