@@ -179,10 +179,27 @@ Streamlit-for-Data-Science/
 │   ├── final_practical_assessment.md # Final practical: Week 15, 4 hours, 150 marks
 │   ├── final_project_assessment.md   # Capstone rubric: 3 weeks, 200 marks
 │   └── rubrics/                      # Instructor grading guides and reference materials
-├── projects/                🚀 Project templates (P01–P08 Capstone)
-│   ├── P06_ml_model_playground.md   # ML Model Playground project spec
-│   ├── P07_rag_document_chat.md     # RAG Document Chat project spec
-│   └── P08_capstone_project.md      # Capstone Project spec (full-stack deployment)
+├── projects/                🚀 Progressive project specs (P01–P20)
+│   ├── README.md                     # Project index with progression map
+│   ├── P01_csv_data_viewer.md        # Beginner: CSV upload and display
+│   ├── P02_data_explorer.md          # Intermediate: Interactive data dashboard
+│   ├── P03_calculator_statistics.md  # Beginner: Calculator and stats tool
+│   ├── P04_data_cleaning_dashboard.md # Intermediate: Data cleaning and preprocessing
+│   ├── P05_eda_dashboard.md          # Intermediate: Exploratory data analysis
+│   ├── P06_ml_model_playground.md    # Advanced: ML model training and prediction
+│   ├── P08_capstone_project.md       # Expert: Full capstone project spec
+│   ├── P09_visualization_dashboard.md # Intermediate: Multi-chart visualization
+│   ├── P10_student_performance.md    # Intermediate: Student analytics dashboard
+│   ├── P11_ml_prediction_app.md      # Advanced: ML prediction pipeline
+│   ├── P12_model_evaluation_dashboard.md # Advanced: Model comparison dashboard
+│   ├── P13_batch_prediction.md       # Advanced: Batch prediction pipeline
+│   ├── P14_database_dashboard.md     # Advanced: Database-powered dashboard
+│   ├── P15_nlp_application.md        # AI/LLM: Text analysis application
+│   ├── P16_llm_chat.md              # AI/LLM: LLM chat interface
+│   ├── P17_document_qa.md           # AI/LLM: RAG document Q&A
+│   ├── P18_production_dashboard.md  # Expert: Production-quality dashboard
+│   ├── P19_ai_powered_app.md        # Expert: AI-powered data science app
+│   └── P20_complete_deployed_app.md  # Expert: Complete deployed ML/AI app
 ├── instructor/              👩‍🏫 Answer keys, grading guides, slides
 │   └── exercise_guide.md               # Grading guide, solutions overview, rubrics
 ├── apps/                    🖥️ Runnable Streamlit demo apps
@@ -324,14 +341,25 @@ streamlit run apps/hello.py --server.headless true
 
 | # | Project | Level | Key Skills |
 |---|---|---|---|
-| P01 | Personal Dashboard | Beginner | `st.write`, widgets, layout, theming |
-| P02 | [Data Explorer](projects/P02_data_explorer.md) | Intermediate | File upload, Pandas, charts, session state |
-| P03 | Form-Based Survey Tool | Intermediate | Forms, validation, file handling |
-| P04 | Real-Time Dashboard | Advanced | Caching, fragments, `run_every` |
-| P05 | CRUD Database App | Advanced | SQL, forms, authentication |
-| P06 | ML Model Playground | ML | Model loading, inference, SHAP |
-| P07 | RAG Document Chat | AI/LLM | Chat UI, embeddings, vector store |
-| P08 | **Capstone Project** | Production | All skills + CI/CD + deployment |
+| P01 | [CSV Data Viewer](projects/P01_csv_data_viewer.md) | Beginner | File upload, DataFrame display, statistics |
+| P02 | [Data Explorer](projects/P02_data_explorer.md) | Intermediate | Filters, KPIs, charts, session state |
+| P03 | [Calculator & Stats](projects/P03_calculator_statistics.md) | Beginner | Widgets, conditional logic, basic stats |
+| P04 | [Data Cleaning](projects/P04_data_cleaning_dashboard.md) | Intermediate | Data transformation, before/after, export |
+| P05 | [EDA Dashboard](projects/P05_eda_dashboard.md) | Intermediate | Multi-tab exploration, distributions, correlations |
+| P06 | [ML Playground](projects/P06_ml_model_playground.md) | Advanced | Model training, evaluation, prediction |
+| P09 | [Visualization](projects/P09_visualization_dashboard.md) | Intermediate | Plotly, Matplotlib, chart selection |
+| P10 | [Student Analytics](projects/P10_student_performance.md) | Intermediate | Domain-specific analytics, complex filtering |
+| P11 | [ML Prediction](projects/P11_ml_prediction_app.md) | Advanced | Model deployment, preprocessing, batch prediction |
+| P12 | [Model Evaluation](projects/P12_model_evaluation_dashboard.md) | Advanced | Model comparison, ROC, confusion matrix |
+| P13 | [Batch Prediction](projects/P13_batch_prediction.md) | Advanced | Batch processing, validation, reporting |
+| P14 | [Database Dashboard](projects/P14_database_dashboard.md) | Advanced | SQLite, CRUD, multipage, caching |
+| P15 | [NLP Application](projects/P15_nlp_application.md) | AI/LLM | Text analysis, sentiment, classification |
+| P16 | [LLM Chat](projects/P16_llm_chat.md) | AI/LLM | Chat UI, provider abstraction, secrets |
+| P17 | [Document Q&A](projects/P17_document_qa.md) | AI/LLM | RAG, retrieval, chunking, LLM integration |
+| P18 | [Production Dashboard](projects/P18_production_dashboard.md) | Expert | Testing, security, deployment, monitoring |
+| P19 | [AI-Powered App](projects/P19_ai_powered_app.md) | Expert | ML + LLM integration, full-stack AI |
+| P20 | [Complete Deployed App](projects/P20_complete_deployed_app.md) | Expert | All course skills combined |
+| P08 | [**Capstone Project**](projects/P08_capstone_project.md) | Expert | Full development lifecycle |
 
 ---
 
